@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "manim-fontawesome"
-version = "5.15.4"
+version = "5.15.4.post0"
 description = "Font Awesome SVG's for Manim"
 authors = ["Naveen M K <naveen@manim.community>"]
 repository = "https://github.com/naveen521kk/manim-fontawesome"
@@ -16,6 +16,7 @@ classifiers= [
     "Programming Language :: Python :: 3.9",
     "Natural Language :: English",
 ]
+readme="README.md"
 
 [tool.poetry.dependencies]
 python = "^3.7"
