@@ -1,0 +1,31 @@
+# Automatically generated using scripts/update.py. Don't edit.
+
+# Copyright Naveen M K
+#
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE.txt file.
+
+# Check https://www.python.org/dev/peps/pep-0484/ for more info
+# about this file.
+
+from manim import SVGMobject
+
+FONT_AWESOME_VERSION: str = '{{ font_awesome_version }}'
+
+
+class Brand:
+  {% for brand in brand_icons %}
+    {{ brand.name }}: SVGMobject
+  {% endfor %}
+
+
+class Regular:
+  {% for regular in regular_icons %}
+    {{ regular.name }}: SVGMobject
+  {% endfor %}
+
+
+class Solid:
+  {% for solid in solid_icons %}
+    {{ solid.name }}: SVGMobject
+  {% endfor %}

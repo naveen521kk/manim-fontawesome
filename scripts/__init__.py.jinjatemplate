@@ -1,0 +1,77 @@
+# Automatically generated using scripts/update.py. Don't edit.
+
+# Copyright Naveen M K
+#
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE.txt file.
+
+import os
+
+from pathlib import Path
+from enum import Enum
+from manim import SVGMobject, config
+
+__all__ = ["brand", "regular", "solid", "FONT_AWESOME_VERSION"]
+
+svg_dir = Path(__file__).parent / 'font-awesome'/ 'svgs'
+brand_dir = svg_dir / 'brands'
+regular_dir = svg_dir / 'regular'
+solid_dir = svg_dir / 'solid'
+FONT_AWESOME_VERSION = '{{ font_awesome_version }}'
+
+
+class _Brand(Enum):
+  {% for brand in brand_icons %}
+    {{ brand.name }} = os.fspath(brand_dir / '{{ brand.filename }}')
+  {% endfor %}
+
+
+class _Regular(Enum):
+  {% for regular in regular_icons %}
+    {{ regular.name }} = os.fspath(regular_dir / '{{ regular.filename }}')
+  {% endfor %}
+
+
+class _Solid(Enum):
+  {% for solid in solid_icons %}
+    {{ solid.name }} = os.fspath(solid_dir / '{{ solid.filename }}')
+  {% endfor %}
+
+
+def _get_svg_object(fp: str):
+    color = 'BLACK'
+    if config.background_color == 'BLACK':
+        color = 'WHITE'
+    return SVGMobject(fp, color=color)
+
+
+class Brand:
+    """Brand SVG files defined in font-awesome/svgs/brands"""
+    def __init__(self) -> None:
+        pass
+
+    def __getattr__(self, name) -> SVGMobject:
+        return _get_svg_object(_Brand.__members__[name].value)
+
+
+class Regular:
+    """Regular SVG files defined in font-awesome/svgs/regular"""
+    def __init__(self) -> None:
+        pass
+
+    def __getattr__(self, name) -> SVGMobject:
+        return _get_svg_object(_Regular.__members__[name].value)
+
+
+class Solid:
+    """Solid SVG files defined in font-awesome/svgs/solid"""
+    def __init__(self) -> None:
+        pass
+
+    def __getattr__(self, name) -> SVGMobject:
+        return _get_svg_object(_Solid.__members__[name].value)
+
+
+brand = Brand()
+regular = Regular()
+solid = Solid()
