@@ -10,18 +10,18 @@
 
 from manim import SVGMobject
 
-FONT_AWESOME_VERSION: str = '5.15.4'
+FONT_AWESOME_VERSION: str = '6.0.0'
 
 
 class Brand:
+  
+    _42_group: SVGMobject
   
     _500px: SVGMobject
   
     accessible_icon: SVGMobject
   
     accusoft: SVGMobject
-  
-    acquisitions_incorporated: SVGMobject
   
     adn: SVGMobject
   
@@ -83,6 +83,8 @@ class Brand:
   
     behance: SVGMobject
   
+    bilibili: SVGMobject
+  
     bimobject: SVGMobject
   
     bitbucket: SVGMobject
@@ -104,6 +106,8 @@ class Brand:
     bluetooth: SVGMobject
   
     bootstrap: SVGMobject
+  
+    bots: SVGMobject
   
     btc: SVGMobject
   
@@ -152,6 +156,8 @@ class Brand:
     cloudsmith: SVGMobject
   
     cloudversify: SVGMobject
+  
+    cmplid: SVGMobject
   
     codepen: SVGMobject
   
@@ -311,12 +317,6 @@ class Brand:
   
     fly: SVGMobject
   
-    font_awesome_alt: SVGMobject
-  
-    font_awesome_flag: SVGMobject
-  
-    font_awesome_logo_full: SVGMobject
-  
     font_awesome: SVGMobject
   
     fonticons_fi: SVGMobject
@@ -371,6 +371,8 @@ class Brand:
   
     gofore: SVGMobject
   
+    golang: SVGMobject
+  
     goodreads_g: SVGMobject
   
     goodreads: SVGMobject
@@ -409,6 +411,8 @@ class Brand:
   
     hackerrank: SVGMobject
   
+    hashnode: SVGMobject
+  
     hips: SVGMobject
   
     hire_a_helper: SVGMobject
@@ -430,8 +434,6 @@ class Brand:
     ideal: SVGMobject
   
     imdb: SVGMobject
-  
-    innosoft: SVGMobject
   
     instagram_square: SVGMobject
   
@@ -521,8 +523,6 @@ class Brand:
   
     medapps: SVGMobject
   
-    medium_m: SVGMobject
-  
     medium: SVGMobject
   
     medrt: SVGMobject
@@ -585,6 +585,8 @@ class Brand:
   
     osi: SVGMobject
   
+    padlet: SVGMobject
+  
     page4: SVGMobject
   
     pagelines: SVGMobject
@@ -594,8 +596,6 @@ class Brand:
     patreon: SVGMobject
   
     paypal: SVGMobject
-  
-    penny_arcade: SVGMobject
   
     perbyte: SVGMobject
   
@@ -624,6 +624,8 @@ class Brand:
     pinterest_square: SVGMobject
   
     pinterest: SVGMobject
+  
+    pix: SVGMobject
   
     playstation: SVGMobject
   
@@ -709,19 +711,17 @@ class Brand:
   
     sith: SVGMobject
   
+    sitrox: SVGMobject
+  
     sketch: SVGMobject
   
     skyatlas: SVGMobject
   
     skype: SVGMobject
   
-    slack_hash: SVGMobject
-  
     slack: SVGMobject
   
     slideshare: SVGMobject
-  
-    snapchat_ghost: SVGMobject
   
     snapchat_square: SVGMobject
   
@@ -736,6 +736,10 @@ class Brand:
     speaker_deck: SVGMobject
   
     spotify: SVGMobject
+  
+    square_font_awesome_stroke: SVGMobject
+  
+    square_font_awesome: SVGMobject
   
     squarespace: SVGMobject
   
@@ -778,8 +782,6 @@ class Brand:
     symfony: SVGMobject
   
     teamspeak: SVGMobject
-  
-    telegram_plane: SVGMobject
   
     telegram: SVGMobject
   
@@ -881,6 +883,8 @@ class Brand:
   
     windows: SVGMobject
   
+    wirsindhandwerk: SVGMobject
+  
     wix: SVGMobject
   
     wizards_of_the_coast: SVGMobject
@@ -937,16 +941,6 @@ class Regular:
   
     address_card: SVGMobject
   
-    angry: SVGMobject
-  
-    arrow_alt_circle_down: SVGMobject
-  
-    arrow_alt_circle_left: SVGMobject
-  
-    arrow_alt_circle_right: SVGMobject
-  
-    arrow_alt_circle_up: SVGMobject
-  
     bell_slash: SVGMobject
   
     bell: SVGMobject
@@ -955,31 +949,55 @@ class Regular:
   
     building: SVGMobject
   
-    calendar_alt: SVGMobject
-  
     calendar_check: SVGMobject
+  
+    calendar_days: SVGMobject
   
     calendar_minus: SVGMobject
   
     calendar_plus: SVGMobject
   
-    calendar_times: SVGMobject
+    calendar_xmark: SVGMobject
   
     calendar: SVGMobject
   
-    caret_square_down: SVGMobject
-  
-    caret_square_left: SVGMobject
-  
-    caret_square_right: SVGMobject
-  
-    caret_square_up: SVGMobject
-  
     chart_bar: SVGMobject
   
-    check_circle: SVGMobject
+    chess_bishop: SVGMobject
   
-    check_square: SVGMobject
+    chess_king: SVGMobject
+  
+    chess_knight: SVGMobject
+  
+    chess_pawn: SVGMobject
+  
+    chess_queen: SVGMobject
+  
+    chess_rook: SVGMobject
+  
+    circle_check: SVGMobject
+  
+    circle_dot: SVGMobject
+  
+    circle_down: SVGMobject
+  
+    circle_left: SVGMobject
+  
+    circle_pause: SVGMobject
+  
+    circle_play: SVGMobject
+  
+    circle_question: SVGMobject
+  
+    circle_right: SVGMobject
+  
+    circle_stop: SVGMobject
+  
+    circle_up: SVGMobject
+  
+    circle_user: SVGMobject
+  
+    circle_xmark: SVGMobject
   
     circle: SVGMobject
   
@@ -990,8 +1008,6 @@ class Regular:
     clone: SVGMobject
   
     closed_captioning: SVGMobject
-  
-    comment_alt: SVGMobject
   
     comment_dots: SVGMobject
   
@@ -1007,12 +1023,6 @@ class Regular:
   
     credit_card: SVGMobject
   
-    dizzy: SVGMobject
-  
-    dot_circle: SVGMobject
-  
-    edit: SVGMobject
-  
     envelope_open: SVGMobject
   
     envelope: SVGMobject
@@ -1021,9 +1031,77 @@ class Regular:
   
     eye: SVGMobject
   
-    file_alt: SVGMobject
+    face_angry: SVGMobject
   
-    file_archive: SVGMobject
+    face_dizzy: SVGMobject
+  
+    face_flushed: SVGMobject
+  
+    face_frown_open: SVGMobject
+  
+    face_frown: SVGMobject
+  
+    face_grimace: SVGMobject
+  
+    face_grin_beam_sweat: SVGMobject
+  
+    face_grin_beam: SVGMobject
+  
+    face_grin_hearts: SVGMobject
+  
+    face_grin_squint_tears: SVGMobject
+  
+    face_grin_squint: SVGMobject
+  
+    face_grin_stars: SVGMobject
+  
+    face_grin_tears: SVGMobject
+  
+    face_grin_tongue_squint: SVGMobject
+  
+    face_grin_tongue_wink: SVGMobject
+  
+    face_grin_tongue: SVGMobject
+  
+    face_grin_wide: SVGMobject
+  
+    face_grin_wink: SVGMobject
+  
+    face_grin: SVGMobject
+  
+    face_kiss_beam: SVGMobject
+  
+    face_kiss_wink_heart: SVGMobject
+  
+    face_kiss: SVGMobject
+  
+    face_laugh_beam: SVGMobject
+  
+    face_laugh_squint: SVGMobject
+  
+    face_laugh_wink: SVGMobject
+  
+    face_laugh: SVGMobject
+  
+    face_meh_blank: SVGMobject
+  
+    face_meh: SVGMobject
+  
+    face_rolling_eyes: SVGMobject
+  
+    face_sad_cry: SVGMobject
+  
+    face_sad_tear: SVGMobject
+  
+    face_smile_beam: SVGMobject
+  
+    face_smile_wink: SVGMobject
+  
+    face_smile: SVGMobject
+  
+    face_surprise: SVGMobject
+  
+    face_tired: SVGMobject
   
     file_audio: SVGMobject
   
@@ -1033,6 +1111,8 @@ class Regular:
   
     file_image: SVGMobject
   
+    file_lines: SVGMobject
+  
     file_pdf: SVGMobject
   
     file_powerpoint: SVGMobject
@@ -1041,57 +1121,27 @@ class Regular:
   
     file_word: SVGMobject
   
+    file_zipper: SVGMobject
+  
     file: SVGMobject
   
     flag: SVGMobject
   
-    flushed: SVGMobject
+    floppy_disk: SVGMobject
   
     folder_open: SVGMobject
   
     folder: SVGMobject
   
-    font_awesome_logo_full: SVGMobject
-  
-    frown_open: SVGMobject
-  
-    frown: SVGMobject
+    font_awesome: SVGMobject
   
     futbol: SVGMobject
   
     gem: SVGMobject
   
-    grimace: SVGMobject
-  
-    grin_alt: SVGMobject
-  
-    grin_beam_sweat: SVGMobject
-  
-    grin_beam: SVGMobject
-  
-    grin_hearts: SVGMobject
-  
-    grin_squint_tears: SVGMobject
-  
-    grin_squint: SVGMobject
-  
-    grin_stars: SVGMobject
-  
-    grin_tears: SVGMobject
-  
-    grin_tongue_squint: SVGMobject
-  
-    grin_tongue_wink: SVGMobject
-  
-    grin_tongue: SVGMobject
-  
-    grin_wink: SVGMobject
-  
-    grin: SVGMobject
+    hand_back_fist: SVGMobject
   
     hand_lizard: SVGMobject
-  
-    hand_paper: SVGMobject
   
     hand_peace: SVGMobject
   
@@ -1105,15 +1155,15 @@ class Regular:
   
     hand_pointer: SVGMobject
   
-    hand_rock: SVGMobject
-  
     hand_scissors: SVGMobject
   
     hand_spock: SVGMobject
   
+    hand: SVGMobject
+  
     handshake: SVGMobject
   
-    hdd: SVGMobject
+    hard_drive: SVGMobject
   
     heart: SVGMobject
   
@@ -1131,43 +1181,23 @@ class Regular:
   
     keyboard: SVGMobject
   
-    kiss_beam: SVGMobject
-  
-    kiss_wink_heart: SVGMobject
-  
-    kiss: SVGMobject
-  
-    laugh_beam: SVGMobject
-  
-    laugh_squint: SVGMobject
-  
-    laugh_wink: SVGMobject
-  
-    laugh: SVGMobject
-  
     lemon: SVGMobject
   
     life_ring: SVGMobject
   
     lightbulb: SVGMobject
   
-    list_alt: SVGMobject
-  
     map: SVGMobject
   
-    meh_blank: SVGMobject
+    message: SVGMobject
   
-    meh_rolling_eyes: SVGMobject
-  
-    meh: SVGMobject
-  
-    minus_square: SVGMobject
-  
-    money_bill_alt: SVGMobject
+    money_bill_1: SVGMobject
   
     moon: SVGMobject
   
     newspaper: SVGMobject
+  
+    note_sticky: SVGMobject
   
     object_group: SVGMobject
   
@@ -1175,61 +1205,53 @@ class Regular:
   
     paper_plane: SVGMobject
   
-    pause_circle: SVGMobject
+    paste: SVGMobject
   
-    play_circle: SVGMobject
+    pen_to_square: SVGMobject
   
-    plus_square: SVGMobject
+    rectangle_list: SVGMobject
   
-    question_circle: SVGMobject
+    rectangle_xmark: SVGMobject
   
     registered: SVGMobject
   
-    sad_cry: SVGMobject
-  
-    sad_tear: SVGMobject
-  
-    save: SVGMobject
-  
-    share_square: SVGMobject
-  
-    smile_beam: SVGMobject
-  
-    smile_wink: SVGMobject
-  
-    smile: SVGMobject
+    share_from_square: SVGMobject
   
     snowflake: SVGMobject
   
+    square_caret_down: SVGMobject
+  
+    square_caret_left: SVGMobject
+  
+    square_caret_right: SVGMobject
+  
+    square_caret_up: SVGMobject
+  
+    square_check: SVGMobject
+  
+    square_full: SVGMobject
+  
+    square_minus: SVGMobject
+  
+    square_plus: SVGMobject
+  
     square: SVGMobject
+  
+    star_half_stroke: SVGMobject
   
     star_half: SVGMobject
   
     star: SVGMobject
   
-    sticky_note: SVGMobject
-  
-    stop_circle: SVGMobject
-  
     sun: SVGMobject
-  
-    surprise: SVGMobject
   
     thumbs_down: SVGMobject
   
     thumbs_up: SVGMobject
   
-    times_circle: SVGMobject
-  
-    tired: SVGMobject
-  
-    trash_alt: SVGMobject
-  
-    user_circle: SVGMobject
+    trash_can: SVGMobject
   
     user: SVGMobject
-  
-    window_close: SVGMobject
   
     window_maximize: SVGMobject
   
@@ -1241,15 +1263,31 @@ class Regular:
 
 class Solid:
   
-    ad: SVGMobject
+    _0: SVGMobject
+  
+    _1: SVGMobject
+  
+    _2: SVGMobject
+  
+    _3: SVGMobject
+  
+    _4: SVGMobject
+  
+    _5: SVGMobject
+  
+    _6: SVGMobject
+  
+    _7: SVGMobject
+  
+    _8: SVGMobject
+  
+    _9: SVGMobject
+  
+    a: SVGMobject
   
     address_book: SVGMobject
   
     address_card: SVGMobject
-  
-    adjust: SVGMobject
-  
-    air_freshener: SVGMobject
   
     align_center: SVGMobject
   
@@ -1259,21 +1297,7 @@ class Solid:
   
     align_right: SVGMobject
   
-    allergies: SVGMobject
-  
-    ambulance: SVGMobject
-  
-    american_sign_language_interpreting: SVGMobject
-  
     anchor: SVGMobject
-  
-    angle_double_down: SVGMobject
-  
-    angle_double_left: SVGMobject
-  
-    angle_double_right: SVGMobject
-  
-    angle_double_up: SVGMobject
   
     angle_down: SVGMobject
   
@@ -1283,65 +1307,113 @@ class Solid:
   
     angle_up: SVGMobject
   
-    angry: SVGMobject
+    angles_down: SVGMobject
+  
+    angles_left: SVGMobject
+  
+    angles_right: SVGMobject
+  
+    angles_up: SVGMobject
   
     ankh: SVGMobject
   
-    apple_alt: SVGMobject
-  
-    archive: SVGMobject
+    apple_whole: SVGMobject
   
     archway: SVGMobject
   
-    arrow_alt_circle_down: SVGMobject
+    arrow_down_1_9: SVGMobject
   
-    arrow_alt_circle_left: SVGMobject
+    arrow_down_9_1: SVGMobject
   
-    arrow_alt_circle_right: SVGMobject
+    arrow_down_a_z: SVGMobject
   
-    arrow_alt_circle_up: SVGMobject
+    arrow_down_long: SVGMobject
   
-    arrow_circle_down: SVGMobject
+    arrow_down_short_wide: SVGMobject
   
-    arrow_circle_left: SVGMobject
+    arrow_down_wide_short: SVGMobject
   
-    arrow_circle_right: SVGMobject
-  
-    arrow_circle_up: SVGMobject
+    arrow_down_z_a: SVGMobject
   
     arrow_down: SVGMobject
   
+    arrow_left_long: SVGMobject
+  
     arrow_left: SVGMobject
+  
+    arrow_pointer: SVGMobject
+  
+    arrow_right_arrow_left: SVGMobject
+  
+    arrow_right_from_bracket: SVGMobject
+  
+    arrow_right_long: SVGMobject
+  
+    arrow_right_to_bracket: SVGMobject
   
     arrow_right: SVGMobject
   
+    arrow_rotate_left: SVGMobject
+  
+    arrow_rotate_right: SVGMobject
+  
+    arrow_trend_down: SVGMobject
+  
+    arrow_trend_up: SVGMobject
+  
+    arrow_turn_down: SVGMobject
+  
+    arrow_turn_up: SVGMobject
+  
+    arrow_up_1_9: SVGMobject
+  
+    arrow_up_9_1: SVGMobject
+  
+    arrow_up_a_z: SVGMobject
+  
+    arrow_up_from_bracket: SVGMobject
+  
+    arrow_up_long: SVGMobject
+  
+    arrow_up_right_from_square: SVGMobject
+  
+    arrow_up_short_wide: SVGMobject
+  
+    arrow_up_wide_short: SVGMobject
+  
+    arrow_up_z_a: SVGMobject
+  
     arrow_up: SVGMobject
   
-    arrows_alt_h: SVGMobject
+    arrows_left_right: SVGMobject
   
-    arrows_alt_v: SVGMobject
+    arrows_rotate: SVGMobject
   
-    arrows_alt: SVGMobject
+    arrows_up_down_left_right: SVGMobject
   
-    assistive_listening_systems: SVGMobject
+    arrows_up_down: SVGMobject
   
     asterisk: SVGMobject
   
     at: SVGMobject
   
-    atlas: SVGMobject
-  
     atom: SVGMobject
   
     audio_description: SVGMobject
   
+    austral_sign: SVGMobject
+  
     award: SVGMobject
+  
+    b: SVGMobject
   
     baby_carriage: SVGMobject
   
     baby: SVGMobject
   
-    backspace: SVGMobject
+    backward_fast: SVGMobject
+  
+    backward_step: SVGMobject
   
     backward: SVGMobject
   
@@ -1351,25 +1423,33 @@ class Solid:
   
     bacterium: SVGMobject
   
+    bag_shopping: SVGMobject
+  
     bahai: SVGMobject
   
-    balance_scale_left: SVGMobject
+    baht_sign: SVGMobject
   
-    balance_scale_right: SVGMobject
-  
-    balance_scale: SVGMobject
+    ban_smoking: SVGMobject
   
     ban: SVGMobject
   
-    band_aid: SVGMobject
+    bandage: SVGMobject
   
     barcode: SVGMobject
   
+    bars_progress: SVGMobject
+  
+    bars_staggered: SVGMobject
+  
     bars: SVGMobject
   
-    baseball_ball: SVGMobject
+    baseball_bat_ball: SVGMobject
   
-    basketball_ball: SVGMobject
+    baseball: SVGMobject
+  
+    basket_shopping: SVGMobject
+  
+    basketball: SVGMobject
   
     bath: SVGMobject
   
@@ -1383,9 +1463,13 @@ class Solid:
   
     battery_three_quarters: SVGMobject
   
+    bed_pulse: SVGMobject
+  
     bed: SVGMobject
   
-    beer: SVGMobject
+    beer_mug_empty: SVGMobject
+  
+    bell_concierge: SVGMobject
   
     bell_slash: SVGMobject
   
@@ -1393,27 +1477,23 @@ class Solid:
   
     bezier_curve: SVGMobject
   
-    bible: SVGMobject
-  
     bicycle: SVGMobject
-  
-    biking: SVGMobject
   
     binoculars: SVGMobject
   
     biohazard: SVGMobject
   
-    birthday_cake: SVGMobject
+    bitcoin_sign: SVGMobject
   
     blender_phone: SVGMobject
   
     blender: SVGMobject
   
-    blind: SVGMobject
-  
     blog: SVGMobject
   
     bold: SVGMobject
+  
+    bolt_lightning: SVGMobject
   
     bolt: SVGMobject
   
@@ -1423,13 +1503,21 @@ class Solid:
   
     bong: SVGMobject
   
-    book_dead: SVGMobject
+    book_atlas: SVGMobject
+  
+    book_bible: SVGMobject
+  
+    book_journal_whills: SVGMobject
   
     book_medical: SVGMobject
   
+    book_open_reader: SVGMobject
+  
     book_open: SVGMobject
   
-    book_reader: SVGMobject
+    book_quran: SVGMobject
+  
+    book_skull: SVGMobject
   
     book: SVGMobject
   
@@ -1439,9 +1527,11 @@ class Solid:
   
     border_none: SVGMobject
   
-    border_style: SVGMobject
+    border_top_left: SVGMobject
   
     bowling_ball: SVGMobject
+  
+    box_archive: SVGMobject
   
     box_open: SVGMobject
   
@@ -1449,11 +1539,13 @@ class Solid:
   
     box: SVGMobject
   
-    boxes: SVGMobject
+    boxes_stacked: SVGMobject
   
     braille: SVGMobject
   
     brain: SVGMobject
+  
+    brazilian_real_sign: SVGMobject
   
     bread_slice: SVGMobject
   
@@ -1461,13 +1553,17 @@ class Solid:
   
     briefcase: SVGMobject
   
-    broadcast_tower: SVGMobject
+    broom_ball: SVGMobject
   
     broom: SVGMobject
   
     brush: SVGMobject
   
+    bug_slash: SVGMobject
+  
     bug: SVGMobject
+  
+    building_columns: SVGMobject
   
     building: SVGMobject
   
@@ -1475,33 +1571,39 @@ class Solid:
   
     bullseye: SVGMobject
   
-    burn: SVGMobject
+    burger: SVGMobject
   
-    bus_alt: SVGMobject
+    bus_simple: SVGMobject
   
     bus: SVGMobject
   
     business_time: SVGMobject
   
-    calculator: SVGMobject
+    c: SVGMobject
   
-    calendar_alt: SVGMobject
+    cake_candles: SVGMobject
+  
+    calculator: SVGMobject
   
     calendar_check: SVGMobject
   
     calendar_day: SVGMobject
   
+    calendar_days: SVGMobject
+  
     calendar_minus: SVGMobject
   
     calendar_plus: SVGMobject
   
-    calendar_times: SVGMobject
-  
     calendar_week: SVGMobject
+  
+    calendar_xmark: SVGMobject
   
     calendar: SVGMobject
   
     camera_retro: SVGMobject
+  
+    camera_rotate: SVGMobject
   
     camera: SVGMobject
   
@@ -1513,11 +1615,11 @@ class Solid:
   
     capsules: SVGMobject
   
-    car_alt: SVGMobject
-  
     car_battery: SVGMobject
   
     car_crash: SVGMobject
+  
+    car_rear: SVGMobject
   
     car_side: SVGMobject
   
@@ -1531,33 +1633,37 @@ class Solid:
   
     caret_right: SVGMobject
   
-    caret_square_down: SVGMobject
-  
-    caret_square_left: SVGMobject
-  
-    caret_square_right: SVGMobject
-  
-    caret_square_up: SVGMobject
-  
     caret_up: SVGMobject
   
     carrot: SVGMobject
   
     cart_arrow_down: SVGMobject
   
+    cart_flatbed_suitcase: SVGMobject
+  
+    cart_flatbed: SVGMobject
+  
     cart_plus: SVGMobject
+  
+    cart_shopping: SVGMobject
   
     cash_register: SVGMobject
   
     cat: SVGMobject
   
+    cedi_sign: SVGMobject
+  
+    cent_sign: SVGMobject
+  
     certificate: SVGMobject
   
     chair: SVGMobject
   
-    chalkboard_teacher: SVGMobject
+    chalkboard_user: SVGMobject
   
     chalkboard: SVGMobject
+  
+    champagne_glasses: SVGMobject
   
     charging_station: SVGMobject
   
@@ -1565,15 +1671,17 @@ class Solid:
   
     chart_bar: SVGMobject
   
+    chart_column: SVGMobject
+  
+    chart_gantt: SVGMobject
+  
     chart_line: SVGMobject
   
     chart_pie: SVGMobject
   
-    check_circle: SVGMobject
-  
     check_double: SVGMobject
   
-    check_square: SVGMobject
+    check_to_slot: SVGMobject
   
     check: SVGMobject
   
@@ -1595,14 +1703,6 @@ class Solid:
   
     chess: SVGMobject
   
-    chevron_circle_down: SVGMobject
-  
-    chevron_circle_left: SVGMobject
-  
-    chevron_circle_right: SVGMobject
-  
-    chevron_circle_up: SVGMobject
-  
     chevron_down: SVGMobject
   
     chevron_left: SVGMobject
@@ -1615,13 +1715,69 @@ class Solid:
   
     church: SVGMobject
   
+    circle_arrow_down: SVGMobject
+  
+    circle_arrow_left: SVGMobject
+  
+    circle_arrow_right: SVGMobject
+  
+    circle_arrow_up: SVGMobject
+  
+    circle_check: SVGMobject
+  
+    circle_chevron_down: SVGMobject
+  
+    circle_chevron_left: SVGMobject
+  
+    circle_chevron_right: SVGMobject
+  
+    circle_chevron_up: SVGMobject
+  
+    circle_dollar_to_slot: SVGMobject
+  
+    circle_dot: SVGMobject
+  
+    circle_down: SVGMobject
+  
+    circle_exclamation: SVGMobject
+  
+    circle_h: SVGMobject
+  
+    circle_half_stroke: SVGMobject
+  
+    circle_info: SVGMobject
+  
+    circle_left: SVGMobject
+  
+    circle_minus: SVGMobject
+  
     circle_notch: SVGMobject
+  
+    circle_pause: SVGMobject
+  
+    circle_play: SVGMobject
+  
+    circle_plus: SVGMobject
+  
+    circle_question: SVGMobject
+  
+    circle_radiation: SVGMobject
+  
+    circle_right: SVGMobject
+  
+    circle_stop: SVGMobject
+  
+    circle_up: SVGMobject
+  
+    circle_user: SVGMobject
+  
+    circle_xmark: SVGMobject
   
     circle: SVGMobject
   
     city: SVGMobject
   
-    clinic_medical: SVGMobject
+    clapperboard: SVGMobject
   
     clipboard_check: SVGMobject
   
@@ -1629,13 +1785,17 @@ class Solid:
   
     clipboard: SVGMobject
   
+    clock_rotate_left: SVGMobject
+  
     clock: SVGMobject
   
     clone: SVGMobject
   
     closed_captioning: SVGMobject
   
-    cloud_download_alt: SVGMobject
+    cloud_arrow_down: SVGMobject
+  
+    cloud_arrow_up: SVGMobject
   
     cloud_meatball: SVGMobject
   
@@ -1651,27 +1811,27 @@ class Solid:
   
     cloud_sun: SVGMobject
   
-    cloud_upload_alt: SVGMobject
-  
     cloud: SVGMobject
   
-    cocktail: SVGMobject
+    clover: SVGMobject
   
     code_branch: SVGMobject
   
+    code_commit: SVGMobject
+  
+    code_compare: SVGMobject
+  
+    code_fork: SVGMobject
+  
+    code_merge: SVGMobject
+  
+    code_pull_request: SVGMobject
+  
     code: SVGMobject
-  
-    coffee: SVGMobject
-  
-    cog: SVGMobject
-  
-    cogs: SVGMobject
   
     coins: SVGMobject
   
-    columns: SVGMobject
-  
-    comment_alt: SVGMobject
+    colon_sign: SVGMobject
   
     comment_dollar: SVGMobject
   
@@ -1681,6 +1841,8 @@ class Solid:
   
     comment_slash: SVGMobject
   
+    comment_sms: SVGMobject
+  
     comment: SVGMobject
   
     comments_dollar: SVGMobject
@@ -1689,15 +1851,13 @@ class Solid:
   
     compact_disc: SVGMobject
   
+    compass_drafting: SVGMobject
+  
     compass: SVGMobject
-  
-    compress_alt: SVGMobject
-  
-    compress_arrows_alt: SVGMobject
   
     compress: SVGMobject
   
-    concierge_bell: SVGMobject
+    computer_mouse: SVGMobject
   
     cookie_bite: SVGMobject
   
@@ -1711,7 +1871,7 @@ class Solid:
   
     credit_card: SVGMobject
   
-    crop_alt: SVGMobject
+    crop_simple: SVGMobject
   
     crop: SVGMobject
   
@@ -1725,15 +1885,17 @@ class Solid:
   
     crutch: SVGMobject
   
+    cruzeiro_sign: SVGMobject
+  
     cube: SVGMobject
   
     cubes: SVGMobject
   
-    cut: SVGMobject
+    d: SVGMobject
   
     database: SVGMobject
   
-    deaf: SVGMobject
+    delete_left: SVGMobject
   
     democrat: SVGMobject
   
@@ -1741,7 +1903,17 @@ class Solid:
   
     dharmachakra: SVGMobject
   
-    diagnoses: SVGMobject
+    diagram_next: SVGMobject
+  
+    diagram_predecessor: SVGMobject
+  
+    diagram_project: SVGMobject
+  
+    diagram_successor: SVGMobject
+  
+    diamond_turn_right: SVGMobject
+  
+    diamond: SVGMobject
   
     dice_d20: SVGMobject
   
@@ -1761,15 +1933,9 @@ class Solid:
   
     dice: SVGMobject
   
-    digital_tachograph: SVGMobject
-  
-    directions: SVGMobject
-  
     disease: SVGMobject
   
     divide: SVGMobject
-  
-    dizzy: SVGMobject
   
     dna: SVGMobject
   
@@ -1777,27 +1943,29 @@ class Solid:
   
     dollar_sign: SVGMobject
   
-    dolly_flatbed: SVGMobject
-  
     dolly: SVGMobject
   
-    donate: SVGMobject
+    dong_sign: SVGMobject
   
     door_closed: SVGMobject
   
     door_open: SVGMobject
   
-    dot_circle: SVGMobject
-  
     dove: SVGMobject
   
-    download: SVGMobject
+    down_left_and_up_right_to_center: SVGMobject
   
-    drafting_compass: SVGMobject
+    down_long: SVGMobject
+  
+    download: SVGMobject
   
     dragon: SVGMobject
   
     draw_polygon: SVGMobject
+  
+    droplet_slash: SVGMobject
+  
+    droplet: SVGMobject
   
     drum_steelpan: SVGMobject
   
@@ -1813,23 +1981,39 @@ class Solid:
   
     dungeon: SVGMobject
   
-    edit: SVGMobject
+    e: SVGMobject
+  
+    ear_deaf: SVGMobject
+  
+    ear_listen: SVGMobject
+  
+    earth_africa: SVGMobject
+  
+    earth_americas: SVGMobject
+  
+    earth_asia: SVGMobject
+  
+    earth_europe: SVGMobject
+  
+    earth_oceania: SVGMobject
   
     egg: SVGMobject
   
     eject: SVGMobject
   
-    ellipsis_h: SVGMobject
+    elevator: SVGMobject
   
-    ellipsis_v: SVGMobject
+    ellipsis_vertical: SVGMobject
+  
+    ellipsis: SVGMobject
   
     envelope_open_text: SVGMobject
   
     envelope_open: SVGMobject
   
-    envelope_square: SVGMobject
-  
     envelope: SVGMobject
+  
+    envelopes_bulk: SVGMobject
   
     equals: SVGMobject
   
@@ -1839,51 +2023,105 @@ class Solid:
   
     euro_sign: SVGMobject
   
-    exchange_alt: SVGMobject
-  
-    exclamation_circle: SVGMobject
-  
-    exclamation_triangle: SVGMobject
-  
     exclamation: SVGMobject
-  
-    expand_alt: SVGMobject
-  
-    expand_arrows_alt: SVGMobject
   
     expand: SVGMobject
   
-    external_link_alt: SVGMobject
-  
-    external_link_square_alt: SVGMobject
-  
     eye_dropper: SVGMobject
+  
+    eye_low_vision: SVGMobject
   
     eye_slash: SVGMobject
   
     eye: SVGMobject
   
+    f: SVGMobject
+  
+    face_angry: SVGMobject
+  
+    face_dizzy: SVGMobject
+  
+    face_flushed: SVGMobject
+  
+    face_frown_open: SVGMobject
+  
+    face_frown: SVGMobject
+  
+    face_grimace: SVGMobject
+  
+    face_grin_beam_sweat: SVGMobject
+  
+    face_grin_beam: SVGMobject
+  
+    face_grin_hearts: SVGMobject
+  
+    face_grin_squint_tears: SVGMobject
+  
+    face_grin_squint: SVGMobject
+  
+    face_grin_stars: SVGMobject
+  
+    face_grin_tears: SVGMobject
+  
+    face_grin_tongue_squint: SVGMobject
+  
+    face_grin_tongue_wink: SVGMobject
+  
+    face_grin_tongue: SVGMobject
+  
+    face_grin_wide: SVGMobject
+  
+    face_grin_wink: SVGMobject
+  
+    face_grin: SVGMobject
+  
+    face_kiss_beam: SVGMobject
+  
+    face_kiss_wink_heart: SVGMobject
+  
+    face_kiss: SVGMobject
+  
+    face_laugh_beam: SVGMobject
+  
+    face_laugh_squint: SVGMobject
+  
+    face_laugh_wink: SVGMobject
+  
+    face_laugh: SVGMobject
+  
+    face_meh_blank: SVGMobject
+  
+    face_meh: SVGMobject
+  
+    face_rolling_eyes: SVGMobject
+  
+    face_sad_cry: SVGMobject
+  
+    face_sad_tear: SVGMobject
+  
+    face_smile_beam: SVGMobject
+  
+    face_smile_wink: SVGMobject
+  
+    face_smile: SVGMobject
+  
+    face_surprise: SVGMobject
+  
+    face_tired: SVGMobject
+  
     fan: SVGMobject
-  
-    fast_backward: SVGMobject
-  
-    fast_forward: SVGMobject
   
     faucet: SVGMobject
   
     fax: SVGMobject
   
-    feather_alt: SVGMobject
+    feather_pointed: SVGMobject
   
     feather: SVGMobject
   
-    female: SVGMobject
+    file_arrow_down: SVGMobject
   
-    fighter_jet: SVGMobject
-  
-    file_alt: SVGMobject
-  
-    file_archive: SVGMobject
+    file_arrow_up: SVGMobject
   
     file_audio: SVGMobject
   
@@ -1892,8 +2130,6 @@ class Solid:
     file_contract: SVGMobject
   
     file_csv: SVGMobject
-  
-    file_download: SVGMobject
   
     file_excel: SVGMobject
   
@@ -1907,7 +2143,7 @@ class Solid:
   
     file_invoice: SVGMobject
   
-    file_medical_alt: SVGMobject
+    file_lines: SVGMobject
   
     file_medical: SVGMobject
   
@@ -1919,11 +2155,13 @@ class Solid:
   
     file_signature: SVGMobject
   
-    file_upload: SVGMobject
-  
     file_video: SVGMobject
   
+    file_waveform: SVGMobject
+  
     file_word: SVGMobject
+  
+    file_zipper: SVGMobject
   
     file: SVGMobject
   
@@ -1933,21 +2171,23 @@ class Solid:
   
     film: SVGMobject
   
+    filter_circle_dollar: SVGMobject
+  
+    filter_circle_xmark: SVGMobject
+  
     filter: SVGMobject
   
     fingerprint: SVGMobject
   
-    fire_alt: SVGMobject
-  
     fire_extinguisher: SVGMobject
+  
+    fire_flame_curved: SVGMobject
+  
+    fire_flame_simple: SVGMobject
   
     fire: SVGMobject
   
-    first_aid: SVGMobject
-  
     fish: SVGMobject
-  
-    fist_raised: SVGMobject
   
     flag_checkered: SVGMobject
   
@@ -1957,7 +2197,9 @@ class Solid:
   
     flask: SVGMobject
   
-    flushed: SVGMobject
+    floppy_disk: SVGMobject
+  
+    florin_sign: SVGMobject
   
     folder_minus: SVGMobject
   
@@ -1965,31 +2207,47 @@ class Solid:
   
     folder_plus: SVGMobject
   
+    folder_tree: SVGMobject
+  
     folder: SVGMobject
   
-    font_awesome_logo_full: SVGMobject
+    font_awesome: SVGMobject
   
     font: SVGMobject
   
-    football_ball: SVGMobject
+    football: SVGMobject
+  
+    forward_fast: SVGMobject
+  
+    forward_step: SVGMobject
   
     forward: SVGMobject
   
+    franc_sign: SVGMobject
+  
     frog: SVGMobject
   
-    frown_open: SVGMobject
-  
-    frown: SVGMobject
-  
-    funnel_dollar: SVGMobject
-  
     futbol: SVGMobject
+  
+    g: SVGMobject
   
     gamepad: SVGMobject
   
     gas_pump: SVGMobject
   
+    gauge_high: SVGMobject
+  
+    gauge_simple_high: SVGMobject
+  
+    gauge_simple: SVGMobject
+  
+    gauge: SVGMobject
+  
     gavel: SVGMobject
+  
+    gear: SVGMobject
+  
+    gears: SVGMobject
   
     gem: SVGMobject
   
@@ -2001,27 +2259,11 @@ class Solid:
   
     gifts: SVGMobject
   
-    glass_cheers: SVGMobject
-  
-    glass_martini_alt: SVGMobject
-  
-    glass_martini: SVGMobject
-  
-    glass_whiskey: SVGMobject
-  
     glasses: SVGMobject
-  
-    globe_africa: SVGMobject
-  
-    globe_americas: SVGMobject
-  
-    globe_asia: SVGMobject
-  
-    globe_europe: SVGMobject
   
     globe: SVGMobject
   
-    golf_ball: SVGMobject
+    golf_ball_tee: SVGMobject
   
     gopuram: SVGMobject
   
@@ -2031,67 +2273,45 @@ class Solid:
   
     greater_than: SVGMobject
   
-    grimace: SVGMobject
-  
-    grin_alt: SVGMobject
-  
-    grin_beam_sweat: SVGMobject
-  
-    grin_beam: SVGMobject
-  
-    grin_hearts: SVGMobject
-  
-    grin_squint_tears: SVGMobject
-  
-    grin_squint: SVGMobject
-  
-    grin_stars: SVGMobject
-  
-    grin_tears: SVGMobject
-  
-    grin_tongue_squint: SVGMobject
-  
-    grin_tongue_wink: SVGMobject
-  
-    grin_tongue: SVGMobject
-  
-    grin_wink: SVGMobject
-  
-    grin: SVGMobject
-  
-    grip_horizontal: SVGMobject
-  
     grip_lines_vertical: SVGMobject
   
     grip_lines: SVGMobject
   
     grip_vertical: SVGMobject
   
+    grip: SVGMobject
+  
+    guarani_sign: SVGMobject
+  
     guitar: SVGMobject
   
-    h_square: SVGMobject
+    gun: SVGMobject
   
-    hamburger: SVGMobject
+    h: SVGMobject
   
     hammer: SVGMobject
   
     hamsa: SVGMobject
   
+    hand_back_fist: SVGMobject
+  
+    hand_dots: SVGMobject
+  
+    hand_fist: SVGMobject
+  
+    hand_holding_dollar: SVGMobject
+  
+    hand_holding_droplet: SVGMobject
+  
     hand_holding_heart: SVGMobject
   
     hand_holding_medical: SVGMobject
-  
-    hand_holding_usd: SVGMobject
-  
-    hand_holding_water: SVGMobject
   
     hand_holding: SVGMobject
   
     hand_lizard: SVGMobject
   
     hand_middle_finger: SVGMobject
-  
-    hand_paper: SVGMobject
   
     hand_peace: SVGMobject
   
@@ -2105,21 +2325,29 @@ class Solid:
   
     hand_pointer: SVGMobject
   
-    hand_rock: SVGMobject
-  
     hand_scissors: SVGMobject
   
     hand_sparkles: SVGMobject
   
     hand_spock: SVGMobject
   
-    hands_helping: SVGMobject
+    hand: SVGMobject
   
-    hands_wash: SVGMobject
+    hands_asl_interpreting: SVGMobject
+  
+    hands_bubbles: SVGMobject
+  
+    hands_clapping: SVGMobject
+  
+    hands_holding: SVGMobject
+  
+    hands_praying: SVGMobject
   
     hands: SVGMobject
   
-    handshake_alt_slash: SVGMobject
+    handshake_angle: SVGMobject
+  
+    handshake_simple_slash: SVGMobject
   
     handshake_slash: SVGMobject
   
@@ -2127,7 +2355,7 @@ class Solid:
   
     hanukiah: SVGMobject
   
-    hard_hat: SVGMobject
+    hard_drive: SVGMobject
   
     hashtag: SVGMobject
   
@@ -2136,8 +2364,6 @@ class Solid:
     hat_cowboy: SVGMobject
   
     hat_wizard: SVGMobject
-  
-    hdd: SVGMobject
   
     head_side_cough_slash: SVGMobject
   
@@ -2149,67 +2375,77 @@ class Solid:
   
     heading: SVGMobject
   
-    headphones_alt: SVGMobject
+    headphones_simple: SVGMobject
   
     headphones: SVGMobject
   
     headset: SVGMobject
   
-    heart_broken: SVGMobject
+    heart_crack: SVGMobject
+  
+    heart_pulse: SVGMobject
   
     heart: SVGMobject
   
-    heartbeat: SVGMobject
-  
     helicopter: SVGMobject
+  
+    helmet_safety: SVGMobject
   
     highlighter: SVGMobject
   
-    hiking: SVGMobject
-  
     hippo: SVGMobject
-  
-    history: SVGMobject
   
     hockey_puck: SVGMobject
   
     holly_berry: SVGMobject
   
-    home: SVGMobject
-  
     horse_head: SVGMobject
   
     horse: SVGMobject
-  
-    hospital_alt: SVGMobject
-  
-    hospital_symbol: SVGMobject
   
     hospital_user: SVGMobject
   
     hospital: SVGMobject
   
-    hot_tub: SVGMobject
+    hot_tub_person: SVGMobject
   
     hotdog: SVGMobject
   
     hotel: SVGMobject
   
-    hourglass_end: SVGMobject
+    hourglass_empty: SVGMobject
   
-    hourglass_half: SVGMobject
+    hourglass_end: SVGMobject
   
     hourglass_start: SVGMobject
   
     hourglass: SVGMobject
   
-    house_damage: SVGMobject
+    house_chimney_crack: SVGMobject
+  
+    house_chimney_medical: SVGMobject
+  
+    house_chimney_user: SVGMobject
+  
+    house_chimney_window: SVGMobject
+  
+    house_chimney: SVGMobject
+  
+    house_crack: SVGMobject
+  
+    house_laptop: SVGMobject
+  
+    house_medical: SVGMobject
   
     house_user: SVGMobject
   
-    hryvnia: SVGMobject
+    house: SVGMobject
+  
+    hryvnia_sign: SVGMobject
   
     i_cursor: SVGMobject
+  
+    i: SVGMobject
   
     ice_cream: SVGMobject
   
@@ -2219,11 +2455,13 @@ class Solid:
   
     id_badge: SVGMobject
   
-    id_card_alt: SVGMobject
+    id_card_clip: SVGMobject
   
     id_card: SVGMobject
   
     igloo: SVGMobject
+  
+    image_portrait: SVGMobject
   
     image: SVGMobject
   
@@ -2233,21 +2471,25 @@ class Solid:
   
     indent: SVGMobject
   
+    indian_rupee_sign: SVGMobject
+  
     industry: SVGMobject
   
     infinity: SVGMobject
-  
-    info_circle: SVGMobject
   
     info: SVGMobject
   
     italic: SVGMobject
   
+    j: SVGMobject
+  
     jedi: SVGMobject
+  
+    jet_fighter: SVGMobject
   
     joint: SVGMobject
   
-    journal_whills: SVGMobject
+    k: SVGMobject
   
     kaaba: SVGMobject
   
@@ -2257,13 +2499,13 @@ class Solid:
   
     khanda: SVGMobject
   
-    kiss_beam: SVGMobject
+    kip_sign: SVGMobject
   
-    kiss_wink_heart: SVGMobject
-  
-    kiss: SVGMobject
+    kit_medical: SVGMobject
   
     kiwi_bird: SVGMobject
+  
+    l: SVGMobject
   
     landmark: SVGMobject
   
@@ -2271,23 +2513,19 @@ class Solid:
   
     laptop_code: SVGMobject
   
-    laptop_house: SVGMobject
-  
     laptop_medical: SVGMobject
   
     laptop: SVGMobject
   
-    laugh_beam: SVGMobject
-  
-    laugh_squint: SVGMobject
-  
-    laugh_wink: SVGMobject
-  
-    laugh: SVGMobject
+    lari_sign: SVGMobject
   
     layer_group: SVGMobject
   
     leaf: SVGMobject
+  
+    left_long: SVGMobject
+  
+    left_right: SVGMobject
   
     lemon: SVGMobject
   
@@ -2295,19 +2533,17 @@ class Solid:
   
     less_than: SVGMobject
   
-    level_down_alt: SVGMobject
-  
-    level_up_alt: SVGMobject
-  
     life_ring: SVGMobject
   
     lightbulb: SVGMobject
+  
+    link_slash: SVGMobject
   
     link: SVGMobject
   
     lira_sign: SVGMobject
   
-    list_alt: SVGMobject
+    list_check: SVGMobject
   
     list_ol: SVGMobject
   
@@ -2315,73 +2551,77 @@ class Solid:
   
     list: SVGMobject
   
+    litecoin_sign: SVGMobject
+  
     location_arrow: SVGMobject
+  
+    location_crosshairs: SVGMobject
+  
+    location_dot: SVGMobject
+  
+    location_pin: SVGMobject
   
     lock_open: SVGMobject
   
     lock: SVGMobject
   
-    long_arrow_alt_down: SVGMobject
-  
-    long_arrow_alt_left: SVGMobject
-  
-    long_arrow_alt_right: SVGMobject
-  
-    long_arrow_alt_up: SVGMobject
-  
-    low_vision: SVGMobject
-  
-    luggage_cart: SVGMobject
-  
     lungs_virus: SVGMobject
   
     lungs: SVGMobject
   
-    magic: SVGMobject
+    m: SVGMobject
   
     magnet: SVGMobject
   
-    mail_bulk: SVGMobject
+    magnifying_glass_dollar: SVGMobject
   
-    male: SVGMobject
+    magnifying_glass_location: SVGMobject
   
-    map_marked_alt: SVGMobject
+    magnifying_glass_minus: SVGMobject
   
-    map_marked: SVGMobject
+    magnifying_glass_plus: SVGMobject
   
-    map_marker_alt: SVGMobject
+    magnifying_glass: SVGMobject
   
-    map_marker: SVGMobject
+    manat_sign: SVGMobject
+  
+    map_location_dot: SVGMobject
+  
+    map_location: SVGMobject
   
     map_pin: SVGMobject
-  
-    map_signs: SVGMobject
   
     map: SVGMobject
   
     marker: SVGMobject
   
+    mars_and_venus: SVGMobject
+  
     mars_double: SVGMobject
   
-    mars_stroke_h: SVGMobject
+    mars_stroke_right: SVGMobject
   
-    mars_stroke_v: SVGMobject
+    mars_stroke_up: SVGMobject
   
     mars_stroke: SVGMobject
   
     mars: SVGMobject
   
+    martini_glass_citrus: SVGMobject
+  
+    martini_glass_empty: SVGMobject
+  
+    martini_glass: SVGMobject
+  
+    mask_face: SVGMobject
+  
     mask: SVGMobject
   
+    masks_theater: SVGMobject
+  
+    maximize: SVGMobject
+  
     medal: SVGMobject
-  
-    medkit: SVGMobject
-  
-    meh_blank: SVGMobject
-  
-    meh_rolling_eyes: SVGMobject
-  
-    meh: SVGMobject
   
     memory: SVGMobject
   
@@ -2389,13 +2629,15 @@ class Solid:
   
     mercury: SVGMobject
   
+    message: SVGMobject
+  
     meteor: SVGMobject
   
     microchip: SVGMobject
   
-    microphone_alt_slash: SVGMobject
+    microphone_lines_slash: SVGMobject
   
-    microphone_alt: SVGMobject
+    microphone_lines: SVGMobject
   
     microphone_slash: SVGMobject
   
@@ -2403,27 +2645,29 @@ class Solid:
   
     microscope: SVGMobject
   
-    minus_circle: SVGMobject
+    mill_sign: SVGMobject
   
-    minus_square: SVGMobject
+    minimize: SVGMobject
   
     minus: SVGMobject
   
     mitten: SVGMobject
   
-    mobile_alt: SVGMobject
+    mobile_button: SVGMobject
+  
+    mobile_screen_button: SVGMobject
   
     mobile: SVGMobject
   
-    money_bill_alt: SVGMobject
+    money_bill_1_wave: SVGMobject
   
-    money_bill_wave_alt: SVGMobject
+    money_bill_1: SVGMobject
   
     money_bill_wave: SVGMobject
   
     money_bill: SVGMobject
   
-    money_check_alt: SVGMobject
+    money_check_dollar: SVGMobject
   
     money_check: SVGMobject
   
@@ -2439,13 +2683,15 @@ class Solid:
   
     mountain: SVGMobject
   
-    mouse_pointer: SVGMobject
-  
-    mouse: SVGMobject
-  
     mug_hot: SVGMobject
   
+    mug_saucer: SVGMobject
+  
     music: SVGMobject
+  
+    n: SVGMobject
+  
+    naira_sign: SVGMobject
   
     network_wired: SVGMobject
   
@@ -2455,7 +2701,11 @@ class Solid:
   
     not_equal: SVGMobject
   
+    note_sticky: SVGMobject
+  
     notes_medical: SVGMobject
+  
+    o: SVGMobject
   
     object_group: SVGMobject
   
@@ -2469,15 +2719,19 @@ class Solid:
   
     outdent: SVGMobject
   
+    p: SVGMobject
+  
     pager: SVGMobject
   
-    paint_brush: SVGMobject
-  
     paint_roller: SVGMobject
+  
+    paintbrush: SVGMobject
   
     palette: SVGMobject
   
     pallet: SVGMobject
+  
+    panorama: SVGMobject
   
     paper_plane: SVGMobject
   
@@ -2487,15 +2741,9 @@ class Solid:
   
     paragraph: SVGMobject
   
-    parking: SVGMobject
-  
     passport: SVGMobject
   
-    pastafarianism: SVGMobject
-  
     paste: SVGMobject
-  
-    pause_circle: SVGMobject
   
     pause: SVGMobject
   
@@ -2503,45 +2751,71 @@ class Solid:
   
     peace: SVGMobject
   
-    pen_alt: SVGMobject
+    pen_clip: SVGMobject
   
     pen_fancy: SVGMobject
   
     pen_nib: SVGMobject
   
-    pen_square: SVGMobject
+    pen_ruler: SVGMobject
+  
+    pen_to_square: SVGMobject
   
     pen: SVGMobject
   
-    pencil_alt: SVGMobject
+    pencil: SVGMobject
   
-    pencil_ruler: SVGMobject
+    people_arrows_left_right: SVGMobject
   
-    people_arrows: SVGMobject
-  
-    people_carry: SVGMobject
+    people_carry_box: SVGMobject
   
     pepper_hot: SVGMobject
   
     percent: SVGMobject
   
-    percentage: SVGMobject
+    person_biking: SVGMobject
   
     person_booth: SVGMobject
   
-    phone_alt: SVGMobject
+    person_dots_from_line: SVGMobject
+  
+    person_dress: SVGMobject
+  
+    person_hiking: SVGMobject
+  
+    person_praying: SVGMobject
+  
+    person_running: SVGMobject
+  
+    person_skating: SVGMobject
+  
+    person_skiing_nordic: SVGMobject
+  
+    person_skiing: SVGMobject
+  
+    person_snowboarding: SVGMobject
+  
+    person_swimming: SVGMobject
+  
+    person_walking_with_cane: SVGMobject
+  
+    person_walking: SVGMobject
+  
+    person: SVGMobject
+  
+    peseta_sign: SVGMobject
+  
+    peso_sign: SVGMobject
+  
+    phone_flip: SVGMobject
   
     phone_slash: SVGMobject
-  
-    phone_square_alt: SVGMobject
-  
-    phone_square: SVGMobject
   
     phone_volume: SVGMobject
   
     phone: SVGMobject
   
-    photo_video: SVGMobject
+    photo_film: SVGMobject
   
     piggy_bank: SVGMobject
   
@@ -2559,23 +2833,15 @@ class Solid:
   
     plane: SVGMobject
   
-    play_circle: SVGMobject
-  
     play: SVGMobject
   
     plug: SVGMobject
   
-    plus_circle: SVGMobject
-  
-    plus_square: SVGMobject
+    plus_minus: SVGMobject
   
     plus: SVGMobject
   
     podcast: SVGMobject
-  
-    poll_h: SVGMobject
-  
-    poll: SVGMobject
   
     poo_storm: SVGMobject
   
@@ -2583,17 +2849,9 @@ class Solid:
   
     poop: SVGMobject
   
-    portrait: SVGMobject
-  
-    pound_sign: SVGMobject
-  
     power_off: SVGMobject
   
-    pray: SVGMobject
-  
-    praying_hands: SVGMobject
-  
-    prescription_bottle_alt: SVGMobject
+    prescription_bottle_medical: SVGMobject
   
     prescription_bottle: SVGMobject
   
@@ -2601,51 +2859,43 @@ class Solid:
   
     print: SVGMobject
   
-    procedures: SVGMobject
-  
-    project_diagram: SVGMobject
-  
     pump_medical: SVGMobject
   
     pump_soap: SVGMobject
   
     puzzle_piece: SVGMobject
   
+    q: SVGMobject
+  
     qrcode: SVGMobject
   
-    question_circle: SVGMobject
-  
     question: SVGMobject
-  
-    quidditch: SVGMobject
   
     quote_left: SVGMobject
   
     quote_right: SVGMobject
   
-    quran: SVGMobject
-  
-    radiation_alt: SVGMobject
+    r: SVGMobject
   
     radiation: SVGMobject
   
     rainbow: SVGMobject
   
-    random: SVGMobject
-  
     receipt: SVGMobject
   
     record_vinyl: SVGMobject
   
+    rectangle_ad: SVGMobject
+  
+    rectangle_list: SVGMobject
+  
+    rectangle_xmark: SVGMobject
+  
     recycle: SVGMobject
-  
-    redo_alt: SVGMobject
-  
-    redo: SVGMobject
   
     registered: SVGMobject
   
-    remove_format: SVGMobject
+    repeat: SVGMobject
   
     reply_all: SVGMobject
   
@@ -2659,6 +2909,14 @@ class Solid:
   
     ribbon: SVGMobject
   
+    right_from_bracket: SVGMobject
+  
+    right_left: SVGMobject
+  
+    right_long: SVGMobject
+  
+    right_to_bracket: SVGMobject
+  
     ring: SVGMobject
   
     road: SVGMobject
@@ -2667,9 +2925,13 @@ class Solid:
   
     rocket: SVGMobject
   
-    route: SVGMobject
+    rotate_left: SVGMobject
   
-    rss_square: SVGMobject
+    rotate_right: SVGMobject
+  
+    rotate: SVGMobject
+  
+    route: SVGMobject
   
     rss: SVGMobject
   
@@ -2683,37 +2945,39 @@ class Solid:
   
     ruler: SVGMobject
   
-    running: SVGMobject
-  
     rupee_sign: SVGMobject
   
-    sad_cry: SVGMobject
+    rupiah_sign: SVGMobject
   
-    sad_tear: SVGMobject
+    s: SVGMobject
+  
+    sailboat: SVGMobject
   
     satellite_dish: SVGMobject
   
     satellite: SVGMobject
   
-    save: SVGMobject
+    scale_balanced: SVGMobject
+  
+    scale_unbalanced_flip: SVGMobject
+  
+    scale_unbalanced: SVGMobject
   
     school: SVGMobject
   
+    scissors: SVGMobject
+  
+    screwdriver_wrench: SVGMobject
+  
     screwdriver: SVGMobject
+  
+    scroll_torah: SVGMobject
   
     scroll: SVGMobject
   
     sd_card: SVGMobject
   
-    search_dollar: SVGMobject
-  
-    search_location: SVGMobject
-  
-    search_minus: SVGMobject
-  
-    search_plus: SVGMobject
-  
-    search: SVGMobject
+    section: SVGMobject
   
     seedling: SVGMobject
   
@@ -2721,59 +2985,51 @@ class Solid:
   
     shapes: SVGMobject
   
-    share_alt_square: SVGMobject
+    share_from_square: SVGMobject
   
-    share_alt: SVGMobject
-  
-    share_square: SVGMobject
+    share_nodes: SVGMobject
   
     share: SVGMobject
   
     shekel_sign: SVGMobject
   
-    shield_alt: SVGMobject
+    shield_blank: SVGMobject
   
     shield_virus: SVGMobject
   
+    shield: SVGMobject
+  
     ship: SVGMobject
   
-    shipping_fast: SVGMobject
+    shirt: SVGMobject
   
     shoe_prints: SVGMobject
   
-    shopping_bag: SVGMobject
+    shop_slash: SVGMobject
   
-    shopping_basket: SVGMobject
-  
-    shopping_cart: SVGMobject
+    shop: SVGMobject
   
     shower: SVGMobject
   
-    shuttle_van: SVGMobject
+    shrimp: SVGMobject
   
-    sign_in_alt: SVGMobject
+    shuffle: SVGMobject
   
-    sign_language: SVGMobject
+    shuttle_space: SVGMobject
   
-    sign_out_alt: SVGMobject
-  
-    sign: SVGMobject
+    sign_hanging: SVGMobject
   
     signal: SVGMobject
   
     signature: SVGMobject
+  
+    signs_post: SVGMobject
   
     sim_card: SVGMobject
   
     sink: SVGMobject
   
     sitemap: SVGMobject
-  
-    skating: SVGMobject
-  
-    skiing_nordic: SVGMobject
-  
-    skiing: SVGMobject
   
     skull_crossbones: SVGMobject
   
@@ -2783,23 +3039,11 @@ class Solid:
   
     sleigh: SVGMobject
   
-    sliders_h: SVGMobject
-  
-    smile_beam: SVGMobject
-  
-    smile_wink: SVGMobject
-  
-    smile: SVGMobject
+    sliders: SVGMobject
   
     smog: SVGMobject
   
-    smoking_ban: SVGMobject
-  
     smoking: SVGMobject
-  
-    sms: SVGMobject
-  
-    snowboarding: SVGMobject
   
     snowflake: SVGMobject
   
@@ -2813,31 +3057,7 @@ class Solid:
   
     solar_panel: SVGMobject
   
-    sort_alpha_down_alt: SVGMobject
-  
-    sort_alpha_down: SVGMobject
-  
-    sort_alpha_up_alt: SVGMobject
-  
-    sort_alpha_up: SVGMobject
-  
-    sort_amount_down_alt: SVGMobject
-  
-    sort_amount_down: SVGMobject
-  
-    sort_amount_up_alt: SVGMobject
-  
-    sort_amount_up: SVGMobject
-  
     sort_down: SVGMobject
-  
-    sort_numeric_down_alt: SVGMobject
-  
-    sort_numeric_down: SVGMobject
-  
-    sort_numeric_up_alt: SVGMobject
-  
-    sort_numeric_up: SVGMobject
   
     sort_up: SVGMobject
   
@@ -2845,7 +3065,7 @@ class Solid:
   
     spa: SVGMobject
   
-    space_shuttle: SVGMobject
+    spaghetti_monster_flying: SVGMobject
   
     spell_check: SVGMobject
   
@@ -2855,19 +3075,65 @@ class Solid:
   
     splotch: SVGMobject
   
+    spoon: SVGMobject
+  
+    spray_can_sparkles: SVGMobject
+  
     spray_can: SVGMobject
+  
+    square_arrow_up_right: SVGMobject
+  
+    square_caret_down: SVGMobject
+  
+    square_caret_left: SVGMobject
+  
+    square_caret_right: SVGMobject
+  
+    square_caret_up: SVGMobject
+  
+    square_check: SVGMobject
+  
+    square_envelope: SVGMobject
   
     square_full: SVGMobject
   
-    square_root_alt: SVGMobject
+    square_h: SVGMobject
+  
+    square_minus: SVGMobject
+  
+    square_parking: SVGMobject
+  
+    square_pen: SVGMobject
+  
+    square_phone_flip: SVGMobject
+  
+    square_phone: SVGMobject
+  
+    square_plus: SVGMobject
+  
+    square_poll_horizontal: SVGMobject
+  
+    square_poll_vertical: SVGMobject
+  
+    square_root_variable: SVGMobject
+  
+    square_rss: SVGMobject
+  
+    square_share_nodes: SVGMobject
+  
+    square_up_right: SVGMobject
+  
+    square_xmark: SVGMobject
   
     square: SVGMobject
+  
+    stairs: SVGMobject
   
     stamp: SVGMobject
   
     star_and_crescent: SVGMobject
   
-    star_half_alt: SVGMobject
+    star_half_stroke: SVGMobject
   
     star_half: SVGMobject
   
@@ -2877,15 +3143,9 @@ class Solid:
   
     star: SVGMobject
   
-    step_backward: SVGMobject
-  
-    step_forward: SVGMobject
+    sterling_sign: SVGMobject
   
     stethoscope: SVGMobject
-  
-    sticky_note: SVGMobject
-  
-    stop_circle: SVGMobject
   
     stop: SVGMobject
   
@@ -2893,15 +3153,9 @@ class Solid:
   
     stopwatch: SVGMobject
   
-    store_alt_slash: SVGMobject
-  
-    store_alt: SVGMobject
-  
     store_slash: SVGMobject
   
     store: SVGMobject
-  
-    stream: SVGMobject
   
     street_view: SVGMobject
   
@@ -2911,7 +3165,7 @@ class Solid:
   
     subscript: SVGMobject
   
-    subway: SVGMobject
+    suitcase_medical: SVGMobject
   
     suitcase_rolling: SVGMobject
   
@@ -2921,33 +3175,35 @@ class Solid:
   
     superscript: SVGMobject
   
-    surprise: SVGMobject
-  
     swatchbook: SVGMobject
-  
-    swimmer: SVGMobject
-  
-    swimming_pool: SVGMobject
   
     synagogue: SVGMobject
   
-    sync_alt: SVGMobject
-  
-    sync: SVGMobject
-  
     syringe: SVGMobject
   
-    table_tennis: SVGMobject
+    t: SVGMobject
+  
+    table_cells_large: SVGMobject
+  
+    table_cells: SVGMobject
+  
+    table_columns: SVGMobject
+  
+    table_list: SVGMobject
+  
+    table_tennis_paddle_ball: SVGMobject
   
     table: SVGMobject
   
-    tablet_alt: SVGMobject
+    tablet_button: SVGMobject
+  
+    tablet_screen_button: SVGMobject
   
     tablet: SVGMobject
   
     tablets: SVGMobject
   
-    tachometer_alt: SVGMobject
+    tachograph_digital: SVGMobject
   
     tag: SVGMobject
   
@@ -2955,43 +3211,35 @@ class Solid:
   
     tape: SVGMobject
   
-    tasks: SVGMobject
-  
     taxi: SVGMobject
   
     teeth_open: SVGMobject
   
     teeth: SVGMobject
   
+    temperature_empty: SVGMobject
+  
+    temperature_full: SVGMobject
+  
+    temperature_half: SVGMobject
+  
     temperature_high: SVGMobject
   
     temperature_low: SVGMobject
   
-    tenge: SVGMobject
+    temperature_quarter: SVGMobject
+  
+    temperature_three_quarters: SVGMobject
+  
+    tenge_sign: SVGMobject
   
     terminal: SVGMobject
   
     text_height: SVGMobject
   
+    text_slash: SVGMobject
+  
     text_width: SVGMobject
-  
-    th_large: SVGMobject
-  
-    th_list: SVGMobject
-  
-    th: SVGMobject
-  
-    theater_masks: SVGMobject
-  
-    thermometer_empty: SVGMobject
-  
-    thermometer_full: SVGMobject
-  
-    thermometer_half: SVGMobject
-  
-    thermometer_quarter: SVGMobject
-  
-    thermometer_three_quarters: SVGMobject
   
     thermometer: SVGMobject
   
@@ -3001,17 +3249,11 @@ class Solid:
   
     thumbtack: SVGMobject
   
-    ticket_alt: SVGMobject
+    ticket_simple: SVGMobject
   
-    times_circle: SVGMobject
+    ticket: SVGMobject
   
-    times: SVGMobject
-  
-    tint_slash: SVGMobject
-  
-    tint: SVGMobject
-  
-    tired: SVGMobject
+    timeline: SVGMobject
   
     toggle_off: SVGMobject
   
@@ -3025,13 +3267,11 @@ class Solid:
   
     toolbox: SVGMobject
   
-    tools: SVGMobject
-  
     tooth: SVGMobject
   
-    torah: SVGMobject
-  
     torii_gate: SVGMobject
+  
+    tower_broadcast: SVGMobject
   
     tractor: SVGMobject
   
@@ -3041,27 +3281,31 @@ class Solid:
   
     trailer: SVGMobject
   
+    train_subway: SVGMobject
+  
+    train_tram: SVGMobject
+  
     train: SVGMobject
-  
-    tram: SVGMobject
-  
-    transgender_alt: SVGMobject
   
     transgender: SVGMobject
   
-    trash_alt: SVGMobject
+    trash_arrow_up: SVGMobject
   
-    trash_restore_alt: SVGMobject
+    trash_can_arrow_up: SVGMobject
   
-    trash_restore: SVGMobject
+    trash_can: SVGMobject
   
     trash: SVGMobject
   
     tree: SVGMobject
   
+    triangle_exclamation: SVGMobject
+  
     trophy: SVGMobject
   
-    truck_loading: SVGMobject
+    truck_fast: SVGMobject
+  
+    truck_medical: SVGMobject
   
     truck_monster: SVGMobject
   
@@ -3069,13 +3313,21 @@ class Solid:
   
     truck_pickup: SVGMobject
   
-    truck: SVGMobject
+    truck_ramp_box: SVGMobject
   
-    tshirt: SVGMobject
+    truck: SVGMobject
   
     tty: SVGMobject
   
+    turkish_lira_sign: SVGMobject
+  
+    turn_down: SVGMobject
+  
+    turn_up: SVGMobject
+  
     tv: SVGMobject
+  
+    u: SVGMobject
   
     umbrella_beach: SVGMobject
   
@@ -3083,53 +3335,53 @@ class Solid:
   
     underline: SVGMobject
   
-    undo_alt: SVGMobject
-  
-    undo: SVGMobject
-  
     universal_access: SVGMobject
   
-    university: SVGMobject
-  
-    unlink: SVGMobject
-  
-    unlock_alt: SVGMobject
+    unlock_keyhole: SVGMobject
   
     unlock: SVGMobject
   
+    up_down_left_right: SVGMobject
+  
+    up_down: SVGMobject
+  
+    up_long: SVGMobject
+  
+    up_right_and_down_left_from_center: SVGMobject
+  
+    up_right_from_square: SVGMobject
+  
     upload: SVGMobject
-  
-    user_alt_slash: SVGMobject
-  
-    user_alt: SVGMobject
   
     user_astronaut: SVGMobject
   
     user_check: SVGMobject
   
-    user_circle: SVGMobject
-  
     user_clock: SVGMobject
   
-    user_cog: SVGMobject
+    user_doctor: SVGMobject
   
-    user_edit: SVGMobject
-  
-    user_friends: SVGMobject
+    user_gear: SVGMobject
   
     user_graduate: SVGMobject
   
+    user_group: SVGMobject
+  
     user_injured: SVGMobject
   
-    user_lock: SVGMobject
+    user_large_slash: SVGMobject
   
-    user_md: SVGMobject
+    user_large: SVGMobject
+  
+    user_lock: SVGMobject
   
     user_minus: SVGMobject
   
     user_ninja: SVGMobject
   
     user_nurse: SVGMobject
+  
+    user_pen: SVGMobject
   
     user_plus: SVGMobject
   
@@ -3143,19 +3395,23 @@ class Solid:
   
     user_tie: SVGMobject
   
-    user_times: SVGMobject
+    user_xmark: SVGMobject
   
     user: SVGMobject
   
-    users_cog: SVGMobject
+    users_gear: SVGMobject
   
     users_slash: SVGMobject
   
     users: SVGMobject
   
-    utensil_spoon: SVGMobject
-  
     utensils: SVGMobject
+  
+    v: SVGMobject
+  
+    van_shuttle: SVGMobject
+  
+    vault: SVGMobject
   
     vector_square: SVGMobject
   
@@ -3179,6 +3435,10 @@ class Solid:
   
     vihara: SVGMobject
   
+    virus_covid_slash: SVGMobject
+  
+    virus_covid: SVGMobject
+  
     virus_slash: SVGMobject
   
     virus: SVGMobject
@@ -3187,25 +3447,31 @@ class Solid:
   
     voicemail: SVGMobject
   
-    volleyball_ball: SVGMobject
+    volleyball: SVGMobject
   
-    volume_down: SVGMobject
+    volume_high: SVGMobject
   
-    volume_mute: SVGMobject
+    volume_low: SVGMobject
   
     volume_off: SVGMobject
   
-    volume_up: SVGMobject
-  
-    vote_yea: SVGMobject
+    volume_xmark: SVGMobject
   
     vr_cardboard: SVGMobject
   
-    walking: SVGMobject
+    w: SVGMobject
   
     wallet: SVGMobject
   
+    wand_magic_sparkles: SVGMobject
+  
+    wand_magic: SVGMobject
+  
+    wand_sparkles: SVGMobject
+  
     warehouse: SVGMobject
+  
+    water_ladder: SVGMobject
   
     water: SVGMobject
   
@@ -3213,15 +3479,15 @@ class Solid:
   
     weight_hanging: SVGMobject
   
-    weight: SVGMobject
+    weight_scale: SVGMobject
   
     wheelchair: SVGMobject
+  
+    whiskey_glass: SVGMobject
   
     wifi: SVGMobject
   
     wind: SVGMobject
-  
-    window_close: SVGMobject
   
     window_maximize: SVGMobject
   
@@ -3231,7 +3497,7 @@ class Solid:
   
     wine_bottle: SVGMobject
   
-    wine_glass_alt: SVGMobject
+    wine_glass_empty: SVGMobject
   
     wine_glass: SVGMobject
   
@@ -3241,7 +3507,15 @@ class Solid:
   
     x_ray: SVGMobject
   
+    x: SVGMobject
+  
+    xmark: SVGMobject
+  
+    y: SVGMobject
+  
     yen_sign: SVGMobject
   
     yin_yang: SVGMobject
+  
+    z: SVGMobject
   
