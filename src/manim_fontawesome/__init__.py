@@ -17,7 +17,7 @@ svg_dir = Path(__file__).parent / 'font-awesome'/ 'svgs'
 brand_dir = svg_dir / 'brands'
 regular_dir = svg_dir / 'regular'
 solid_dir = svg_dir / 'solid'
-FONT_AWESOME_VERSION = '6.0.0'
+FONT_AWESOME_VERSION = '6.1.1'
 
 
 class _Brand(Enum):
@@ -560,6 +560,10 @@ class _Brand(Enum):
   
     neos = os.fspath(brand_dir / 'neos.svg')
   
+    nfc_directional = os.fspath(brand_dir / 'nfc-directional.svg')
+  
+    nfc_symbol = os.fspath(brand_dir / 'nfc-symbol.svg')
+  
     nimblr = os.fspath(brand_dir / 'nimblr.svg')
   
     node_js = os.fspath(brand_dir / 'node-js.svg')
@@ -695,6 +699,8 @@ class _Brand(Enum):
     sass = os.fspath(brand_dir / 'sass.svg')
   
     schlix = os.fspath(brand_dir / 'schlix.svg')
+  
+    screenpal = os.fspath(brand_dir / 'screenpal.svg')
   
     scribd = os.fspath(brand_dir / 'scribd.svg')
   
@@ -1136,6 +1142,8 @@ class _Regular(Enum):
   
     floppy_disk = os.fspath(regular_dir / 'floppy-disk.svg')
   
+    folder_closed = os.fspath(regular_dir / 'folder-closed.svg')
+  
     folder_open = os.fspath(regular_dir / 'folder-open.svg')
   
     folder = os.fspath(regular_dir / 'folder.svg')
@@ -1304,6 +1312,14 @@ class _Solid(Enum):
   
     align_right = os.fspath(solid_dir / 'align-right.svg')
   
+    anchor_circle_check = os.fspath(solid_dir / 'anchor-circle-check.svg')
+  
+    anchor_circle_exclamation = os.fspath(solid_dir / 'anchor-circle-exclamation.svg')
+  
+    anchor_circle_xmark = os.fspath(solid_dir / 'anchor-circle-xmark.svg')
+  
+    anchor_lock = os.fspath(solid_dir / 'anchor-lock.svg')
+  
     anchor = os.fspath(solid_dir / 'anchor.svg')
   
     angle_down = os.fspath(solid_dir / 'angle-down.svg')
@@ -1338,6 +1354,10 @@ class _Solid(Enum):
   
     arrow_down_short_wide = os.fspath(solid_dir / 'arrow-down-short-wide.svg')
   
+    arrow_down_up_across_line = os.fspath(solid_dir / 'arrow-down-up-across-line.svg')
+  
+    arrow_down_up_lock = os.fspath(solid_dir / 'arrow-down-up-lock.svg')
+  
     arrow_down_wide_short = os.fspath(solid_dir / 'arrow-down-wide-short.svg')
   
     arrow_down_z_a = os.fspath(solid_dir / 'arrow-down-z-a.svg')
@@ -1357,6 +1377,8 @@ class _Solid(Enum):
     arrow_right_long = os.fspath(solid_dir / 'arrow-right-long.svg')
   
     arrow_right_to_bracket = os.fspath(solid_dir / 'arrow-right-to-bracket.svg')
+  
+    arrow_right_to_city = os.fspath(solid_dir / 'arrow-right-to-city.svg')
   
     arrow_right = os.fspath(solid_dir / 'arrow-right.svg')
   
@@ -1380,7 +1402,13 @@ class _Solid(Enum):
   
     arrow_up_from_bracket = os.fspath(solid_dir / 'arrow-up-from-bracket.svg')
   
+    arrow_up_from_ground_water = os.fspath(solid_dir / 'arrow-up-from-ground-water.svg')
+  
+    arrow_up_from_water_pump = os.fspath(solid_dir / 'arrow-up-from-water-pump.svg')
+  
     arrow_up_long = os.fspath(solid_dir / 'arrow-up-long.svg')
+  
+    arrow_up_right_dots = os.fspath(solid_dir / 'arrow-up-right-dots.svg')
   
     arrow_up_right_from_square = os.fspath(solid_dir / 'arrow-up-right-from-square.svg')
   
@@ -1392,13 +1420,35 @@ class _Solid(Enum):
   
     arrow_up = os.fspath(solid_dir / 'arrow-up.svg')
   
+    arrows_down_to_line = os.fspath(solid_dir / 'arrows-down-to-line.svg')
+  
+    arrows_down_to_people = os.fspath(solid_dir / 'arrows-down-to-people.svg')
+  
+    arrows_left_right_to_line = os.fspath(solid_dir / 'arrows-left-right-to-line.svg')
+  
     arrows_left_right = os.fspath(solid_dir / 'arrows-left-right.svg')
   
     arrows_rotate = os.fspath(solid_dir / 'arrows-rotate.svg')
   
+    arrows_spin = os.fspath(solid_dir / 'arrows-spin.svg')
+  
+    arrows_split_up_and_left = os.fspath(solid_dir / 'arrows-split-up-and-left.svg')
+  
+    arrows_to_circle = os.fspath(solid_dir / 'arrows-to-circle.svg')
+  
+    arrows_to_dot = os.fspath(solid_dir / 'arrows-to-dot.svg')
+  
+    arrows_to_eye = os.fspath(solid_dir / 'arrows-to-eye.svg')
+  
+    arrows_turn_right = os.fspath(solid_dir / 'arrows-turn-right.svg')
+  
+    arrows_turn_to_dots = os.fspath(solid_dir / 'arrows-turn-to-dots.svg')
+  
     arrows_up_down_left_right = os.fspath(solid_dir / 'arrows-up-down-left-right.svg')
   
     arrows_up_down = os.fspath(solid_dir / 'arrows-up-down.svg')
+  
+    arrows_up_to_line = os.fspath(solid_dir / 'arrows-up-to-line.svg')
   
     asterisk = os.fspath(solid_dir / 'asterisk.svg')
   
@@ -1514,6 +1564,8 @@ class _Solid(Enum):
   
     book_bible = os.fspath(solid_dir / 'book-bible.svg')
   
+    book_bookmark = os.fspath(solid_dir / 'book-bookmark.svg')
+  
     book_journal_whills = os.fspath(solid_dir / 'book-journal-whills.svg')
   
     book_medical = os.fspath(solid_dir / 'book-medical.svg')
@@ -1536,6 +1588,16 @@ class _Solid(Enum):
   
     border_top_left = os.fspath(solid_dir / 'border-top-left.svg')
   
+    bore_hole = os.fspath(solid_dir / 'bore-hole.svg')
+  
+    bottle_droplet = os.fspath(solid_dir / 'bottle-droplet.svg')
+  
+    bottle_water = os.fspath(solid_dir / 'bottle-water.svg')
+  
+    bowl_food = os.fspath(solid_dir / 'bowl-food.svg')
+  
+    bowl_rice = os.fspath(solid_dir / 'bowl-rice.svg')
+  
     bowling_ball = os.fspath(solid_dir / 'bowling-ball.svg')
   
     box_archive = os.fspath(solid_dir / 'box-archive.svg')
@@ -1545,6 +1607,8 @@ class _Solid(Enum):
     box_tissue = os.fspath(solid_dir / 'box-tissue.svg')
   
     box = os.fspath(solid_dir / 'box.svg')
+  
+    boxes_packing = os.fspath(solid_dir / 'boxes-packing.svg')
   
     boxes_stacked = os.fspath(solid_dir / 'boxes-stacked.svg')
   
@@ -1556,6 +1620,18 @@ class _Solid(Enum):
   
     bread_slice = os.fspath(solid_dir / 'bread-slice.svg')
   
+    bridge_circle_check = os.fspath(solid_dir / 'bridge-circle-check.svg')
+  
+    bridge_circle_exclamation = os.fspath(solid_dir / 'bridge-circle-exclamation.svg')
+  
+    bridge_circle_xmark = os.fspath(solid_dir / 'bridge-circle-xmark.svg')
+  
+    bridge_lock = os.fspath(solid_dir / 'bridge-lock.svg')
+  
+    bridge_water = os.fspath(solid_dir / 'bridge-water.svg')
+  
+    bridge = os.fspath(solid_dir / 'bridge.svg')
+  
     briefcase_medical = os.fspath(solid_dir / 'briefcase-medical.svg')
   
     briefcase = os.fspath(solid_dir / 'briefcase.svg')
@@ -1566,11 +1642,37 @@ class _Solid(Enum):
   
     brush = os.fspath(solid_dir / 'brush.svg')
   
+    bucket = os.fspath(solid_dir / 'bucket.svg')
+  
     bug_slash = os.fspath(solid_dir / 'bug-slash.svg')
   
     bug = os.fspath(solid_dir / 'bug.svg')
   
+    bugs = os.fspath(solid_dir / 'bugs.svg')
+  
+    building_circle_arrow_right = os.fspath(solid_dir / 'building-circle-arrow-right.svg')
+  
+    building_circle_check = os.fspath(solid_dir / 'building-circle-check.svg')
+  
+    building_circle_exclamation = os.fspath(solid_dir / 'building-circle-exclamation.svg')
+  
+    building_circle_xmark = os.fspath(solid_dir / 'building-circle-xmark.svg')
+  
     building_columns = os.fspath(solid_dir / 'building-columns.svg')
+  
+    building_flag = os.fspath(solid_dir / 'building-flag.svg')
+  
+    building_lock = os.fspath(solid_dir / 'building-lock.svg')
+  
+    building_ngo = os.fspath(solid_dir / 'building-ngo.svg')
+  
+    building_shield = os.fspath(solid_dir / 'building-shield.svg')
+  
+    building_un = os.fspath(solid_dir / 'building-un.svg')
+  
+    building_user = os.fspath(solid_dir / 'building-user.svg')
+  
+    building_wheat = os.fspath(solid_dir / 'building-wheat.svg')
   
     building = os.fspath(solid_dir / 'building.svg')
   
@@ -1579,6 +1681,8 @@ class _Solid(Enum):
     bullseye = os.fspath(solid_dir / 'bullseye.svg')
   
     burger = os.fspath(solid_dir / 'burger.svg')
+  
+    burst = os.fspath(solid_dir / 'burst.svg')
   
     bus_simple = os.fspath(solid_dir / 'bus-simple.svg')
   
@@ -1624,11 +1728,15 @@ class _Solid(Enum):
   
     car_battery = os.fspath(solid_dir / 'car-battery.svg')
   
-    car_crash = os.fspath(solid_dir / 'car-crash.svg')
+    car_burst = os.fspath(solid_dir / 'car-burst.svg')
+  
+    car_on = os.fspath(solid_dir / 'car-on.svg')
   
     car_rear = os.fspath(solid_dir / 'car-rear.svg')
   
     car_side = os.fspath(solid_dir / 'car-side.svg')
+  
+    car_tunnel = os.fspath(solid_dir / 'car-tunnel.svg')
   
     car = os.fspath(solid_dir / 'car.svg')
   
@@ -1686,6 +1794,8 @@ class _Solid(Enum):
   
     chart_pie = os.fspath(solid_dir / 'chart-pie.svg')
   
+    chart_simple = os.fspath(solid_dir / 'chart-simple.svg')
+  
     check_double = os.fspath(solid_dir / 'check-double.svg')
   
     check_to_slot = os.fspath(solid_dir / 'check-to-slot.svg')
@@ -1718,7 +1828,15 @@ class _Solid(Enum):
   
     chevron_up = os.fspath(solid_dir / 'chevron-up.svg')
   
+    child_dress = os.fspath(solid_dir / 'child-dress.svg')
+  
+    child_reaching = os.fspath(solid_dir / 'child-reaching.svg')
+  
+    child_rifle = os.fspath(solid_dir / 'child-rifle.svg')
+  
     child = os.fspath(solid_dir / 'child.svg')
+  
+    children = os.fspath(solid_dir / 'children.svg')
   
     church = os.fspath(solid_dir / 'church.svg')
   
@@ -1758,6 +1876,8 @@ class _Solid(Enum):
   
     circle_minus = os.fspath(solid_dir / 'circle-minus.svg')
   
+    circle_nodes = os.fspath(solid_dir / 'circle-nodes.svg')
+  
     circle_notch = os.fspath(solid_dir / 'circle-notch.svg')
   
     circle_pause = os.fspath(solid_dir / 'circle-pause.svg')
@@ -1790,6 +1910,10 @@ class _Solid(Enum):
   
     clipboard_list = os.fspath(solid_dir / 'clipboard-list.svg')
   
+    clipboard_question = os.fspath(solid_dir / 'clipboard-question.svg')
+  
+    clipboard_user = os.fspath(solid_dir / 'clipboard-user.svg')
+  
     clipboard = os.fspath(solid_dir / 'clipboard.svg')
   
     clock_rotate_left = os.fspath(solid_dir / 'clock-rotate-left.svg')
@@ -1804,6 +1928,8 @@ class _Solid(Enum):
   
     cloud_arrow_up = os.fspath(solid_dir / 'cloud-arrow-up.svg')
   
+    cloud_bolt = os.fspath(solid_dir / 'cloud-bolt.svg')
+  
     cloud_meatball = os.fspath(solid_dir / 'cloud-meatball.svg')
   
     cloud_moon_rain = os.fspath(solid_dir / 'cloud-moon-rain.svg')
@@ -1813,6 +1939,8 @@ class _Solid(Enum):
     cloud_rain = os.fspath(solid_dir / 'cloud-rain.svg')
   
     cloud_showers_heavy = os.fspath(solid_dir / 'cloud-showers-heavy.svg')
+  
+    cloud_showers_water = os.fspath(solid_dir / 'cloud-showers-water.svg')
   
     cloud_sun_rain = os.fspath(solid_dir / 'cloud-sun-rain.svg')
   
@@ -1866,6 +1994,8 @@ class _Solid(Enum):
   
     computer_mouse = os.fspath(solid_dir / 'computer-mouse.svg')
   
+    computer = os.fspath(solid_dir / 'computer.svg')
+  
     cookie_bite = os.fspath(solid_dir / 'cookie-bite.svg')
   
     cookie = os.fspath(solid_dir / 'cookie.svg')
@@ -1875,6 +2005,8 @@ class _Solid(Enum):
     copyright = os.fspath(solid_dir / 'copyright.svg')
   
     couch = os.fspath(solid_dir / 'couch.svg')
+  
+    cow = os.fspath(solid_dir / 'cow.svg')
   
     credit_card = os.fspath(solid_dir / 'credit-card.svg')
   
@@ -1895,6 +2027,8 @@ class _Solid(Enum):
     cruzeiro_sign = os.fspath(solid_dir / 'cruzeiro-sign.svg')
   
     cube = os.fspath(solid_dir / 'cube.svg')
+  
+    cubes_stacked = os.fspath(solid_dir / 'cubes-stacked.svg')
   
     cubes = os.fspath(solid_dir / 'cubes.svg')
   
@@ -1941,6 +2075,8 @@ class _Solid(Enum):
     dice = os.fspath(solid_dir / 'dice.svg')
   
     disease = os.fspath(solid_dir / 'disease.svg')
+  
+    display = os.fspath(solid_dir / 'display.svg')
   
     divide = os.fspath(solid_dir / 'divide.svg')
   
@@ -2014,6 +2150,8 @@ class _Solid(Enum):
   
     ellipsis = os.fspath(solid_dir / 'ellipsis.svg')
   
+    envelope_circle_check = os.fspath(solid_dir / 'envelope-circle-check.svg')
+  
     envelope_open_text = os.fspath(solid_dir / 'envelope-open-text.svg')
   
     envelope_open = os.fspath(solid_dir / 'envelope-open.svg')
@@ -2033,6 +2171,8 @@ class _Solid(Enum):
     exclamation = os.fspath(solid_dir / 'exclamation.svg')
   
     expand = os.fspath(solid_dir / 'expand.svg')
+  
+    explosion = os.fspath(solid_dir / 'explosion.svg')
   
     eye_dropper = os.fspath(solid_dir / 'eye-dropper.svg')
   
@@ -2118,6 +2258,8 @@ class _Solid(Enum):
   
     fan = os.fspath(solid_dir / 'fan.svg')
   
+    faucet_drip = os.fspath(solid_dir / 'faucet-drip.svg')
+  
     faucet = os.fspath(solid_dir / 'faucet.svg')
   
     fax = os.fspath(solid_dir / 'fax.svg')
@@ -2126,11 +2268,25 @@ class _Solid(Enum):
   
     feather = os.fspath(solid_dir / 'feather.svg')
   
+    ferry = os.fspath(solid_dir / 'ferry.svg')
+  
     file_arrow_down = os.fspath(solid_dir / 'file-arrow-down.svg')
   
     file_arrow_up = os.fspath(solid_dir / 'file-arrow-up.svg')
   
     file_audio = os.fspath(solid_dir / 'file-audio.svg')
+  
+    file_circle_check = os.fspath(solid_dir / 'file-circle-check.svg')
+  
+    file_circle_exclamation = os.fspath(solid_dir / 'file-circle-exclamation.svg')
+  
+    file_circle_minus = os.fspath(solid_dir / 'file-circle-minus.svg')
+  
+    file_circle_plus = os.fspath(solid_dir / 'file-circle-plus.svg')
+  
+    file_circle_question = os.fspath(solid_dir / 'file-circle-question.svg')
+  
+    file_circle_xmark = os.fspath(solid_dir / 'file-circle-xmark.svg')
   
     file_code = os.fspath(solid_dir / 'file-code.svg')
   
@@ -2156,9 +2312,13 @@ class _Solid(Enum):
   
     file_pdf = os.fspath(solid_dir / 'file-pdf.svg')
   
+    file_pen = os.fspath(solid_dir / 'file-pen.svg')
+  
     file_powerpoint = os.fspath(solid_dir / 'file-powerpoint.svg')
   
     file_prescription = os.fspath(solid_dir / 'file-prescription.svg')
+  
+    file_shield = os.fspath(solid_dir / 'file-shield.svg')
   
     file_signature = os.fspath(solid_dir / 'file-signature.svg')
   
@@ -2186,6 +2346,8 @@ class _Solid(Enum):
   
     fingerprint = os.fspath(solid_dir / 'fingerprint.svg')
   
+    fire_burner = os.fspath(solid_dir / 'fire-burner.svg')
+  
     fire_extinguisher = os.fspath(solid_dir / 'fire-extinguisher.svg')
   
     fire_flame_curved = os.fspath(solid_dir / 'fire-flame-curved.svg')
@@ -2193,6 +2355,8 @@ class _Solid(Enum):
     fire_flame_simple = os.fspath(solid_dir / 'fire-flame-simple.svg')
   
     fire = os.fspath(solid_dir / 'fire.svg')
+  
+    fish_fins = os.fspath(solid_dir / 'fish-fins.svg')
   
     fish = os.fspath(solid_dir / 'fish.svg')
   
@@ -2202,11 +2366,15 @@ class _Solid(Enum):
   
     flag = os.fspath(solid_dir / 'flag.svg')
   
+    flask_vial = os.fspath(solid_dir / 'flask-vial.svg')
+  
     flask = os.fspath(solid_dir / 'flask.svg')
   
     floppy_disk = os.fspath(solid_dir / 'floppy-disk.svg')
   
     florin_sign = os.fspath(solid_dir / 'florin-sign.svg')
+  
+    folder_closed = os.fspath(solid_dir / 'folder-closed.svg')
   
     folder_minus = os.fspath(solid_dir / 'folder-minus.svg')
   
@@ -2266,6 +2434,10 @@ class _Solid(Enum):
   
     gifts = os.fspath(solid_dir / 'gifts.svg')
   
+    glass_water_droplet = os.fspath(solid_dir / 'glass-water-droplet.svg')
+  
+    glass_water = os.fspath(solid_dir / 'glass-water.svg')
+  
     glasses = os.fspath(solid_dir / 'glasses.svg')
   
     globe = os.fspath(solid_dir / 'globe.svg')
@@ -2288,6 +2460,8 @@ class _Solid(Enum):
   
     grip = os.fspath(solid_dir / 'grip.svg')
   
+    group_arrows_rotate = os.fspath(solid_dir / 'group-arrows-rotate.svg')
+  
     guarani_sign = os.fspath(solid_dir / 'guarani-sign.svg')
   
     guitar = os.fspath(solid_dir / 'guitar.svg')
@@ -2309,6 +2483,8 @@ class _Solid(Enum):
     hand_holding_dollar = os.fspath(solid_dir / 'hand-holding-dollar.svg')
   
     hand_holding_droplet = os.fspath(solid_dir / 'hand-holding-droplet.svg')
+  
+    hand_holding_hand = os.fspath(solid_dir / 'hand-holding-hand.svg')
   
     hand_holding_heart = os.fspath(solid_dir / 'hand-holding-heart.svg')
   
@@ -2340,11 +2516,19 @@ class _Solid(Enum):
   
     hand = os.fspath(solid_dir / 'hand.svg')
   
+    handcuffs = os.fspath(solid_dir / 'handcuffs.svg')
+  
     hands_asl_interpreting = os.fspath(solid_dir / 'hands-asl-interpreting.svg')
+  
+    hands_bound = os.fspath(solid_dir / 'hands-bound.svg')
   
     hands_bubbles = os.fspath(solid_dir / 'hands-bubbles.svg')
   
     hands_clapping = os.fspath(solid_dir / 'hands-clapping.svg')
+  
+    hands_holding_child = os.fspath(solid_dir / 'hands-holding-child.svg')
+  
+    hands_holding_circle = os.fspath(solid_dir / 'hands-holding-circle.svg')
   
     hands_holding = os.fspath(solid_dir / 'hands-holding.svg')
   
@@ -2355,6 +2539,8 @@ class _Solid(Enum):
     handshake_angle = os.fspath(solid_dir / 'handshake-angle.svg')
   
     handshake_simple_slash = os.fspath(solid_dir / 'handshake-simple-slash.svg')
+  
+    handshake_simple = os.fspath(solid_dir / 'handshake-simple.svg')
   
     handshake_slash = os.fspath(solid_dir / 'handshake-slash.svg')
   
@@ -2388,17 +2574,37 @@ class _Solid(Enum):
   
     headset = os.fspath(solid_dir / 'headset.svg')
   
+    heart_circle_bolt = os.fspath(solid_dir / 'heart-circle-bolt.svg')
+  
+    heart_circle_check = os.fspath(solid_dir / 'heart-circle-check.svg')
+  
+    heart_circle_exclamation = os.fspath(solid_dir / 'heart-circle-exclamation.svg')
+  
+    heart_circle_minus = os.fspath(solid_dir / 'heart-circle-minus.svg')
+  
+    heart_circle_plus = os.fspath(solid_dir / 'heart-circle-plus.svg')
+  
+    heart_circle_xmark = os.fspath(solid_dir / 'heart-circle-xmark.svg')
+  
     heart_crack = os.fspath(solid_dir / 'heart-crack.svg')
   
     heart_pulse = os.fspath(solid_dir / 'heart-pulse.svg')
   
     heart = os.fspath(solid_dir / 'heart.svg')
   
+    helicopter_symbol = os.fspath(solid_dir / 'helicopter-symbol.svg')
+  
     helicopter = os.fspath(solid_dir / 'helicopter.svg')
   
     helmet_safety = os.fspath(solid_dir / 'helmet-safety.svg')
   
+    helmet_un = os.fspath(solid_dir / 'helmet-un.svg')
+  
     highlighter = os.fspath(solid_dir / 'highlighter.svg')
+  
+    hill_avalanche = os.fspath(solid_dir / 'hill-avalanche.svg')
+  
+    hill_rockslide = os.fspath(solid_dir / 'hill-rockslide.svg')
   
     hippo = os.fspath(solid_dir / 'hippo.svg')
   
@@ -2438,17 +2644,47 @@ class _Solid(Enum):
   
     house_chimney = os.fspath(solid_dir / 'house-chimney.svg')
   
+    house_circle_check = os.fspath(solid_dir / 'house-circle-check.svg')
+  
+    house_circle_exclamation = os.fspath(solid_dir / 'house-circle-exclamation.svg')
+  
+    house_circle_xmark = os.fspath(solid_dir / 'house-circle-xmark.svg')
+  
     house_crack = os.fspath(solid_dir / 'house-crack.svg')
+  
+    house_fire = os.fspath(solid_dir / 'house-fire.svg')
+  
+    house_flag = os.fspath(solid_dir / 'house-flag.svg')
+  
+    house_flood_water_circle_arrow_right = os.fspath(solid_dir / 'house-flood-water-circle-arrow-right.svg')
+  
+    house_flood_water = os.fspath(solid_dir / 'house-flood-water.svg')
   
     house_laptop = os.fspath(solid_dir / 'house-laptop.svg')
   
+    house_lock = os.fspath(solid_dir / 'house-lock.svg')
+  
+    house_medical_circle_check = os.fspath(solid_dir / 'house-medical-circle-check.svg')
+  
+    house_medical_circle_exclamation = os.fspath(solid_dir / 'house-medical-circle-exclamation.svg')
+  
+    house_medical_circle_xmark = os.fspath(solid_dir / 'house-medical-circle-xmark.svg')
+  
+    house_medical_flag = os.fspath(solid_dir / 'house-medical-flag.svg')
+  
     house_medical = os.fspath(solid_dir / 'house-medical.svg')
+  
+    house_signal = os.fspath(solid_dir / 'house-signal.svg')
+  
+    house_tsunami = os.fspath(solid_dir / 'house-tsunami.svg')
   
     house_user = os.fspath(solid_dir / 'house-user.svg')
   
     house = os.fspath(solid_dir / 'house.svg')
   
     hryvnia_sign = os.fspath(solid_dir / 'hryvnia-sign.svg')
+  
+    hurricane = os.fspath(solid_dir / 'hurricane.svg')
   
     i_cursor = os.fspath(solid_dir / 'i-cursor.svg')
   
@@ -2490,11 +2726,19 @@ class _Solid(Enum):
   
     j = os.fspath(solid_dir / 'j.svg')
   
+    jar_wheat = os.fspath(solid_dir / 'jar-wheat.svg')
+  
+    jar = os.fspath(solid_dir / 'jar.svg')
+  
     jedi = os.fspath(solid_dir / 'jedi.svg')
+  
+    jet_fighter_up = os.fspath(solid_dir / 'jet-fighter-up.svg')
   
     jet_fighter = os.fspath(solid_dir / 'jet-fighter.svg')
   
     joint = os.fspath(solid_dir / 'joint.svg')
+  
+    jug_detergent = os.fspath(solid_dir / 'jug-detergent.svg')
   
     k = os.fspath(solid_dir / 'k.svg')
   
@@ -2510,15 +2754,25 @@ class _Solid(Enum):
   
     kit_medical = os.fspath(solid_dir / 'kit-medical.svg')
   
+    kitchen_set = os.fspath(solid_dir / 'kitchen-set.svg')
+  
     kiwi_bird = os.fspath(solid_dir / 'kiwi-bird.svg')
   
     l = os.fspath(solid_dir / 'l.svg')
+  
+    land_mine_on = os.fspath(solid_dir / 'land-mine-on.svg')
+  
+    landmark_dome = os.fspath(solid_dir / 'landmark-dome.svg')
+  
+    landmark_flag = os.fspath(solid_dir / 'landmark-flag.svg')
   
     landmark = os.fspath(solid_dir / 'landmark.svg')
   
     language = os.fspath(solid_dir / 'language.svg')
   
     laptop_code = os.fspath(solid_dir / 'laptop-code.svg')
+  
+    laptop_file = os.fspath(solid_dir / 'laptop-file.svg')
   
     laptop_medical = os.fspath(solid_dir / 'laptop-medical.svg')
   
@@ -2544,6 +2798,8 @@ class _Solid(Enum):
   
     lightbulb = os.fspath(solid_dir / 'lightbulb.svg')
   
+    lines_leaning = os.fspath(solid_dir / 'lines-leaning.svg')
+  
     link_slash = os.fspath(solid_dir / 'link-slash.svg')
   
     link = os.fspath(solid_dir / 'link.svg')
@@ -2566,11 +2822,15 @@ class _Solid(Enum):
   
     location_dot = os.fspath(solid_dir / 'location-dot.svg')
   
+    location_pin_lock = os.fspath(solid_dir / 'location-pin-lock.svg')
+  
     location_pin = os.fspath(solid_dir / 'location-pin.svg')
   
     lock_open = os.fspath(solid_dir / 'lock-open.svg')
   
     lock = os.fspath(solid_dir / 'lock.svg')
+  
+    locust = os.fspath(solid_dir / 'locust.svg')
   
     lungs_virus = os.fspath(solid_dir / 'lungs-virus.svg')
   
@@ -2579,6 +2839,10 @@ class _Solid(Enum):
     m = os.fspath(solid_dir / 'm.svg')
   
     magnet = os.fspath(solid_dir / 'magnet.svg')
+  
+    magnifying_glass_arrow_right = os.fspath(solid_dir / 'magnifying-glass-arrow-right.svg')
+  
+    magnifying_glass_chart = os.fspath(solid_dir / 'magnifying-glass-chart.svg')
   
     magnifying_glass_dollar = os.fspath(solid_dir / 'magnifying-glass-dollar.svg')
   
@@ -2602,6 +2866,8 @@ class _Solid(Enum):
   
     marker = os.fspath(solid_dir / 'marker.svg')
   
+    mars_and_venus_burst = os.fspath(solid_dir / 'mars-and-venus-burst.svg')
+  
     mars_and_venus = os.fspath(solid_dir / 'mars-and-venus.svg')
   
     mars_double = os.fspath(solid_dir / 'mars-double.svg')
@@ -2622,9 +2888,13 @@ class _Solid(Enum):
   
     mask_face = os.fspath(solid_dir / 'mask-face.svg')
   
+    mask_ventilator = os.fspath(solid_dir / 'mask-ventilator.svg')
+  
     mask = os.fspath(solid_dir / 'mask.svg')
   
     masks_theater = os.fspath(solid_dir / 'masks-theater.svg')
+  
+    mattress_pillow = os.fspath(solid_dir / 'mattress-pillow.svg')
   
     maximize = os.fspath(solid_dir / 'maximize.svg')
   
@@ -2662,7 +2932,11 @@ class _Solid(Enum):
   
     mobile_button = os.fspath(solid_dir / 'mobile-button.svg')
   
+    mobile_retro = os.fspath(solid_dir / 'mobile-retro.svg')
+  
     mobile_screen_button = os.fspath(solid_dir / 'mobile-screen-button.svg')
+  
+    mobile_screen = os.fspath(solid_dir / 'mobile-screen.svg')
   
     mobile = os.fspath(solid_dir / 'mobile.svg')
   
@@ -2670,9 +2944,17 @@ class _Solid(Enum):
   
     money_bill_1 = os.fspath(solid_dir / 'money-bill-1.svg')
   
+    money_bill_transfer = os.fspath(solid_dir / 'money-bill-transfer.svg')
+  
+    money_bill_trend_up = os.fspath(solid_dir / 'money-bill-trend-up.svg')
+  
     money_bill_wave = os.fspath(solid_dir / 'money-bill-wave.svg')
   
+    money_bill_wheat = os.fspath(solid_dir / 'money-bill-wheat.svg')
+  
     money_bill = os.fspath(solid_dir / 'money-bill.svg')
+  
+    money_bills = os.fspath(solid_dir / 'money-bills.svg')
   
     money_check_dollar = os.fspath(solid_dir / 'money-check-dollar.svg')
   
@@ -2686,7 +2968,17 @@ class _Solid(Enum):
   
     mosque = os.fspath(solid_dir / 'mosque.svg')
   
+    mosquito_net = os.fspath(solid_dir / 'mosquito-net.svg')
+  
+    mosquito = os.fspath(solid_dir / 'mosquito.svg')
+  
     motorcycle = os.fspath(solid_dir / 'motorcycle.svg')
+  
+    mound = os.fspath(solid_dir / 'mound.svg')
+  
+    mountain_city = os.fspath(solid_dir / 'mountain-city.svg')
+  
+    mountain_sun = os.fspath(solid_dir / 'mountain-sun.svg')
   
     mountain = os.fspath(solid_dir / 'mountain.svg')
   
@@ -2719,6 +3011,8 @@ class _Solid(Enum):
     object_ungroup = os.fspath(solid_dir / 'object-ungroup.svg')
   
     oil_can = os.fspath(solid_dir / 'oil-can.svg')
+  
+    oil_well = os.fspath(solid_dir / 'oil-well.svg')
   
     om = os.fspath(solid_dir / 'om.svg')
   
@@ -2776,23 +3070,85 @@ class _Solid(Enum):
   
     people_carry_box = os.fspath(solid_dir / 'people-carry-box.svg')
   
+    people_group = os.fspath(solid_dir / 'people-group.svg')
+  
+    people_line = os.fspath(solid_dir / 'people-line.svg')
+  
+    people_pulling = os.fspath(solid_dir / 'people-pulling.svg')
+  
+    people_robbery = os.fspath(solid_dir / 'people-robbery.svg')
+  
+    people_roof = os.fspath(solid_dir / 'people-roof.svg')
+  
     pepper_hot = os.fspath(solid_dir / 'pepper-hot.svg')
   
     percent = os.fspath(solid_dir / 'percent.svg')
+  
+    person_arrow_down_to_line = os.fspath(solid_dir / 'person-arrow-down-to-line.svg')
+  
+    person_arrow_up_from_line = os.fspath(solid_dir / 'person-arrow-up-from-line.svg')
   
     person_biking = os.fspath(solid_dir / 'person-biking.svg')
   
     person_booth = os.fspath(solid_dir / 'person-booth.svg')
   
+    person_breastfeeding = os.fspath(solid_dir / 'person-breastfeeding.svg')
+  
+    person_burst = os.fspath(solid_dir / 'person-burst.svg')
+  
+    person_cane = os.fspath(solid_dir / 'person-cane.svg')
+  
+    person_chalkboard = os.fspath(solid_dir / 'person-chalkboard.svg')
+  
+    person_circle_check = os.fspath(solid_dir / 'person-circle-check.svg')
+  
+    person_circle_exclamation = os.fspath(solid_dir / 'person-circle-exclamation.svg')
+  
+    person_circle_minus = os.fspath(solid_dir / 'person-circle-minus.svg')
+  
+    person_circle_plus = os.fspath(solid_dir / 'person-circle-plus.svg')
+  
+    person_circle_question = os.fspath(solid_dir / 'person-circle-question.svg')
+  
+    person_circle_xmark = os.fspath(solid_dir / 'person-circle-xmark.svg')
+  
+    person_digging = os.fspath(solid_dir / 'person-digging.svg')
+  
     person_dots_from_line = os.fspath(solid_dir / 'person-dots-from-line.svg')
+  
+    person_dress_burst = os.fspath(solid_dir / 'person-dress-burst.svg')
   
     person_dress = os.fspath(solid_dir / 'person-dress.svg')
   
+    person_drowning = os.fspath(solid_dir / 'person-drowning.svg')
+  
+    person_falling_burst = os.fspath(solid_dir / 'person-falling-burst.svg')
+  
+    person_falling = os.fspath(solid_dir / 'person-falling.svg')
+  
+    person_half_dress = os.fspath(solid_dir / 'person-half-dress.svg')
+  
+    person_harassing = os.fspath(solid_dir / 'person-harassing.svg')
+  
     person_hiking = os.fspath(solid_dir / 'person-hiking.svg')
+  
+    person_military_pointing = os.fspath(solid_dir / 'person-military-pointing.svg')
+  
+    person_military_rifle = os.fspath(solid_dir / 'person-military-rifle.svg')
+  
+    person_military_to_person = os.fspath(solid_dir / 'person-military-to-person.svg')
   
     person_praying = os.fspath(solid_dir / 'person-praying.svg')
   
+    person_pregnant = os.fspath(solid_dir / 'person-pregnant.svg')
+  
+    person_rays = os.fspath(solid_dir / 'person-rays.svg')
+  
+    person_rifle = os.fspath(solid_dir / 'person-rifle.svg')
+  
     person_running = os.fspath(solid_dir / 'person-running.svg')
+  
+    person_shelter = os.fspath(solid_dir / 'person-shelter.svg')
   
     person_skating = os.fspath(solid_dir / 'person-skating.svg')
   
@@ -2803,6 +3159,16 @@ class _Solid(Enum):
     person_snowboarding = os.fspath(solid_dir / 'person-snowboarding.svg')
   
     person_swimming = os.fspath(solid_dir / 'person-swimming.svg')
+  
+    person_through_window = os.fspath(solid_dir / 'person-through-window.svg')
+  
+    person_walking_arrow_loop_left = os.fspath(solid_dir / 'person-walking-arrow-loop-left.svg')
+  
+    person_walking_arrow_right = os.fspath(solid_dir / 'person-walking-arrow-right.svg')
+  
+    person_walking_dashed_line_arrow_right = os.fspath(solid_dir / 'person-walking-dashed-line-arrow-right.svg')
+  
+    person_walking_luggage = os.fspath(solid_dir / 'person-walking-luggage.svg')
   
     person_walking_with_cane = os.fspath(solid_dir / 'person-walking-with-cane.svg')
   
@@ -2834,13 +3200,39 @@ class _Solid(Enum):
   
     plane_arrival = os.fspath(solid_dir / 'plane-arrival.svg')
   
+    plane_circle_check = os.fspath(solid_dir / 'plane-circle-check.svg')
+  
+    plane_circle_exclamation = os.fspath(solid_dir / 'plane-circle-exclamation.svg')
+  
+    plane_circle_xmark = os.fspath(solid_dir / 'plane-circle-xmark.svg')
+  
     plane_departure = os.fspath(solid_dir / 'plane-departure.svg')
+  
+    plane_lock = os.fspath(solid_dir / 'plane-lock.svg')
   
     plane_slash = os.fspath(solid_dir / 'plane-slash.svg')
   
+    plane_up = os.fspath(solid_dir / 'plane-up.svg')
+  
     plane = os.fspath(solid_dir / 'plane.svg')
   
+    plant_wilt = os.fspath(solid_dir / 'plant-wilt.svg')
+  
+    plate_wheat = os.fspath(solid_dir / 'plate-wheat.svg')
+  
     play = os.fspath(solid_dir / 'play.svg')
+  
+    plug_circle_bolt = os.fspath(solid_dir / 'plug-circle-bolt.svg')
+  
+    plug_circle_check = os.fspath(solid_dir / 'plug-circle-check.svg')
+  
+    plug_circle_exclamation = os.fspath(solid_dir / 'plug-circle-exclamation.svg')
+  
+    plug_circle_minus = os.fspath(solid_dir / 'plug-circle-minus.svg')
+  
+    plug_circle_plus = os.fspath(solid_dir / 'plug-circle-plus.svg')
+  
+    plug_circle_xmark = os.fspath(solid_dir / 'plug-circle-xmark.svg')
   
     plug = os.fspath(solid_dir / 'plug.svg')
   
@@ -2886,7 +3278,11 @@ class _Solid(Enum):
   
     radiation = os.fspath(solid_dir / 'radiation.svg')
   
+    radio = os.fspath(solid_dir / 'radio.svg')
+  
     rainbow = os.fspath(solid_dir / 'rainbow.svg')
+  
+    ranking_star = os.fspath(solid_dir / 'ranking-star.svg')
   
     receipt = os.fspath(solid_dir / 'receipt.svg')
   
@@ -2926,6 +3322,20 @@ class _Solid(Enum):
   
     ring = os.fspath(solid_dir / 'ring.svg')
   
+    road_barrier = os.fspath(solid_dir / 'road-barrier.svg')
+  
+    road_bridge = os.fspath(solid_dir / 'road-bridge.svg')
+  
+    road_circle_check = os.fspath(solid_dir / 'road-circle-check.svg')
+  
+    road_circle_exclamation = os.fspath(solid_dir / 'road-circle-exclamation.svg')
+  
+    road_circle_xmark = os.fspath(solid_dir / 'road-circle-xmark.svg')
+  
+    road_lock = os.fspath(solid_dir / 'road-lock.svg')
+  
+    road_spikes = os.fspath(solid_dir / 'road-spikes.svg')
+  
     road = os.fspath(solid_dir / 'road.svg')
   
     robot = os.fspath(solid_dir / 'robot.svg')
@@ -2944,6 +3354,8 @@ class _Solid(Enum):
   
     ruble_sign = os.fspath(solid_dir / 'ruble-sign.svg')
   
+    rug = os.fspath(solid_dir / 'rug.svg')
+  
     ruler_combined = os.fspath(solid_dir / 'ruler-combined.svg')
   
     ruler_horizontal = os.fspath(solid_dir / 'ruler-horizontal.svg')
@@ -2958,6 +3370,10 @@ class _Solid(Enum):
   
     s = os.fspath(solid_dir / 's.svg')
   
+    sack_dollar = os.fspath(solid_dir / 'sack-dollar.svg')
+  
+    sack_xmark = os.fspath(solid_dir / 'sack-xmark.svg')
+  
     sailboat = os.fspath(solid_dir / 'sailboat.svg')
   
     satellite_dish = os.fspath(solid_dir / 'satellite-dish.svg')
@@ -2969,6 +3385,16 @@ class _Solid(Enum):
     scale_unbalanced_flip = os.fspath(solid_dir / 'scale-unbalanced-flip.svg')
   
     scale_unbalanced = os.fspath(solid_dir / 'scale-unbalanced.svg')
+  
+    school_circle_check = os.fspath(solid_dir / 'school-circle-check.svg')
+  
+    school_circle_exclamation = os.fspath(solid_dir / 'school-circle-exclamation.svg')
+  
+    school_circle_xmark = os.fspath(solid_dir / 'school-circle-xmark.svg')
+  
+    school_flag = os.fspath(solid_dir / 'school-flag.svg')
+  
+    school_lock = os.fspath(solid_dir / 'school-lock.svg')
   
     school = os.fspath(solid_dir / 'school.svg')
   
@@ -2998,9 +3424,17 @@ class _Solid(Enum):
   
     share = os.fspath(solid_dir / 'share.svg')
   
+    sheet_plastic = os.fspath(solid_dir / 'sheet-plastic.svg')
+  
     shekel_sign = os.fspath(solid_dir / 'shekel-sign.svg')
   
-    shield_blank = os.fspath(solid_dir / 'shield-blank.svg')
+    shield_cat = os.fspath(solid_dir / 'shield-cat.svg')
+  
+    shield_dog = os.fspath(solid_dir / 'shield-dog.svg')
+  
+    shield_halved = os.fspath(solid_dir / 'shield-halved.svg')
+  
+    shield_heart = os.fspath(solid_dir / 'shield-heart.svg')
   
     shield_virus = os.fspath(solid_dir / 'shield-virus.svg')
   
@@ -3011,6 +3445,8 @@ class _Solid(Enum):
     shirt = os.fspath(solid_dir / 'shirt.svg')
   
     shoe_prints = os.fspath(solid_dir / 'shoe-prints.svg')
+  
+    shop_lock = os.fspath(solid_dir / 'shop-lock.svg')
   
     shop_slash = os.fspath(solid_dir / 'shop-slash.svg')
   
@@ -3108,9 +3544,13 @@ class _Solid(Enum):
   
     square_minus = os.fspath(solid_dir / 'square-minus.svg')
   
+    square_nfi = os.fspath(solid_dir / 'square-nfi.svg')
+  
     square_parking = os.fspath(solid_dir / 'square-parking.svg')
   
     square_pen = os.fspath(solid_dir / 'square-pen.svg')
+  
+    square_person_confined = os.fspath(solid_dir / 'square-person-confined.svg')
   
     square_phone_flip = os.fspath(solid_dir / 'square-phone-flip.svg')
   
@@ -3130,9 +3570,13 @@ class _Solid(Enum):
   
     square_up_right = os.fspath(solid_dir / 'square-up-right.svg')
   
+    square_virus = os.fspath(solid_dir / 'square-virus.svg')
+  
     square_xmark = os.fspath(solid_dir / 'square-xmark.svg')
   
     square = os.fspath(solid_dir / 'square.svg')
+  
+    staff_aesculapius = os.fspath(solid_dir / 'staff-aesculapius.svg')
   
     stairs = os.fspath(solid_dir / 'stairs.svg')
   
@@ -3178,6 +3622,8 @@ class _Solid(Enum):
   
     suitcase = os.fspath(solid_dir / 'suitcase.svg')
   
+    sun_plant_wilt = os.fspath(solid_dir / 'sun-plant-wilt.svg')
+  
     sun = os.fspath(solid_dir / 'sun.svg')
   
     superscript = os.fspath(solid_dir / 'superscript.svg')
@@ -3218,11 +3664,19 @@ class _Solid(Enum):
   
     tape = os.fspath(solid_dir / 'tape.svg')
   
+    tarp_droplet = os.fspath(solid_dir / 'tarp-droplet.svg')
+  
+    tarp = os.fspath(solid_dir / 'tarp.svg')
+  
     taxi = os.fspath(solid_dir / 'taxi.svg')
   
     teeth_open = os.fspath(solid_dir / 'teeth-open.svg')
   
     teeth = os.fspath(solid_dir / 'teeth.svg')
+  
+    temperature_arrow_down = os.fspath(solid_dir / 'temperature-arrow-down.svg')
+  
+    temperature_arrow_up = os.fspath(solid_dir / 'temperature-arrow-up.svg')
   
     temperature_empty = os.fspath(solid_dir / 'temperature-empty.svg')
   
@@ -3239,6 +3693,18 @@ class _Solid(Enum):
     temperature_three_quarters = os.fspath(solid_dir / 'temperature-three-quarters.svg')
   
     tenge_sign = os.fspath(solid_dir / 'tenge-sign.svg')
+  
+    tent_arrow_down_to_line = os.fspath(solid_dir / 'tent-arrow-down-to-line.svg')
+  
+    tent_arrow_left_right = os.fspath(solid_dir / 'tent-arrow-left-right.svg')
+  
+    tent_arrow_turn_left = os.fspath(solid_dir / 'tent-arrow-turn-left.svg')
+  
+    tent_arrows_down = os.fspath(solid_dir / 'tent-arrows-down.svg')
+  
+    tent = os.fspath(solid_dir / 'tent.svg')
+  
+    tents = os.fspath(solid_dir / 'tents.svg')
   
     terminal = os.fspath(solid_dir / 'terminal.svg')
   
@@ -3270,7 +3736,11 @@ class _Solid(Enum):
   
     toilet_paper = os.fspath(solid_dir / 'toilet-paper.svg')
   
+    toilet_portable = os.fspath(solid_dir / 'toilet-portable.svg')
+  
     toilet = os.fspath(solid_dir / 'toilet.svg')
+  
+    toilets_portable = os.fspath(solid_dir / 'toilets-portable.svg')
   
     toolbox = os.fspath(solid_dir / 'toolbox.svg')
   
@@ -3278,7 +3748,13 @@ class _Solid(Enum):
   
     torii_gate = os.fspath(solid_dir / 'torii-gate.svg')
   
+    tornado = os.fspath(solid_dir / 'tornado.svg')
+  
     tower_broadcast = os.fspath(solid_dir / 'tower-broadcast.svg')
+  
+    tower_cell = os.fspath(solid_dir / 'tower-cell.svg')
+  
+    tower_observation = os.fspath(solid_dir / 'tower-observation.svg')
   
     tractor = os.fspath(solid_dir / 'tractor.svg')
   
@@ -3304,13 +3780,29 @@ class _Solid(Enum):
   
     trash = os.fspath(solid_dir / 'trash.svg')
   
+    tree_city = os.fspath(solid_dir / 'tree-city.svg')
+  
     tree = os.fspath(solid_dir / 'tree.svg')
   
     triangle_exclamation = os.fspath(solid_dir / 'triangle-exclamation.svg')
   
     trophy = os.fspath(solid_dir / 'trophy.svg')
   
+    trowel_bricks = os.fspath(solid_dir / 'trowel-bricks.svg')
+  
+    trowel = os.fspath(solid_dir / 'trowel.svg')
+  
+    truck_arrow_right = os.fspath(solid_dir / 'truck-arrow-right.svg')
+  
+    truck_droplet = os.fspath(solid_dir / 'truck-droplet.svg')
+  
     truck_fast = os.fspath(solid_dir / 'truck-fast.svg')
+  
+    truck_field_un = os.fspath(solid_dir / 'truck-field-un.svg')
+  
+    truck_field = os.fspath(solid_dir / 'truck-field.svg')
+  
+    truck_front = os.fspath(solid_dir / 'truck-front.svg')
   
     truck_medical = os.fspath(solid_dir / 'truck-medical.svg')
   
@@ -3319,6 +3811,8 @@ class _Solid(Enum):
     truck_moving = os.fspath(solid_dir / 'truck-moving.svg')
   
     truck_pickup = os.fspath(solid_dir / 'truck-pickup.svg')
+  
+    truck_plane = os.fspath(solid_dir / 'truck-plane.svg')
   
     truck_ramp_box = os.fspath(solid_dir / 'truck-ramp-box.svg')
   
@@ -3406,9 +3900,19 @@ class _Solid(Enum):
   
     user = os.fspath(solid_dir / 'user.svg')
   
+    users_between_lines = os.fspath(solid_dir / 'users-between-lines.svg')
+  
     users_gear = os.fspath(solid_dir / 'users-gear.svg')
   
+    users_line = os.fspath(solid_dir / 'users-line.svg')
+  
+    users_rays = os.fspath(solid_dir / 'users-rays.svg')
+  
+    users_rectangle = os.fspath(solid_dir / 'users-rectangle.svg')
+  
     users_slash = os.fspath(solid_dir / 'users-slash.svg')
+  
+    users_viewfinder = os.fspath(solid_dir / 'users-viewfinder.svg')
   
     users = os.fspath(solid_dir / 'users.svg')
   
@@ -3432,6 +3936,10 @@ class _Solid(Enum):
   
     vest = os.fspath(solid_dir / 'vest.svg')
   
+    vial_circle_check = os.fspath(solid_dir / 'vial-circle-check.svg')
+  
+    vial_virus = os.fspath(solid_dir / 'vial-virus.svg')
+  
     vial = os.fspath(solid_dir / 'vial.svg')
   
     vials = os.fspath(solid_dir / 'vials.svg')
@@ -3454,6 +3962,8 @@ class _Solid(Enum):
   
     voicemail = os.fspath(solid_dir / 'voicemail.svg')
   
+    volcano = os.fspath(solid_dir / 'volcano.svg')
+  
     volleyball = os.fspath(solid_dir / 'volleyball.svg')
   
     volume_high = os.fspath(solid_dir / 'volume-high.svg')
@@ -3467,6 +3977,8 @@ class _Solid(Enum):
     vr_cardboard = os.fspath(solid_dir / 'vr-cardboard.svg')
   
     w = os.fspath(solid_dir / 'w.svg')
+  
+    walkie_talkie = os.fspath(solid_dir / 'walkie-talkie.svg')
   
     wallet = os.fspath(solid_dir / 'wallet.svg')
   
@@ -3487,6 +3999,12 @@ class _Solid(Enum):
     weight_hanging = os.fspath(solid_dir / 'weight-hanging.svg')
   
     weight_scale = os.fspath(solid_dir / 'weight-scale.svg')
+  
+    wheat_awn_circle_exclamation = os.fspath(solid_dir / 'wheat-awn-circle-exclamation.svg')
+  
+    wheat_awn = os.fspath(solid_dir / 'wheat-awn.svg')
+  
+    wheelchair_move = os.fspath(solid_dir / 'wheelchair-move.svg')
   
     wheelchair = os.fspath(solid_dir / 'wheelchair.svg')
   
@@ -3510,6 +4028,8 @@ class _Solid(Enum):
   
     won_sign = os.fspath(solid_dir / 'won-sign.svg')
   
+    worm = os.fspath(solid_dir / 'worm.svg')
+  
     wrench = os.fspath(solid_dir / 'wrench.svg')
   
     x_ray = os.fspath(solid_dir / 'x-ray.svg')
@@ -3517,6 +4037,8 @@ class _Solid(Enum):
     x = os.fspath(solid_dir / 'x.svg')
   
     xmark = os.fspath(solid_dir / 'xmark.svg')
+  
+    xmarks_lines = os.fspath(solid_dir / 'xmarks-lines.svg')
   
     y = os.fspath(solid_dir / 'y.svg')
   
