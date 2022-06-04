@@ -1,0 +1,34 @@
+name: Monitor component updates
+
+# Check updates in font-awesome
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+env:
+  CHARACTER_LIMIT: 5000
+  MAX_AGE: 300h
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    environment: monitor-components
+    strategy:
+      matrix:
+        component:
+          - label: font-awesome
+            feed: https://github.com/FortAwesome/Font-Awesome/tags.atom
+            aggregate: true
+      fail-fast: false
+    steps:
+      - uses: git-for-windows/rss-to-issues@v0
+        with:
+          feed: ${{matrix.component.feed}}
+          prefix: "[New ${{matrix.component.label}} version]"
+          labels: component-update
+          github-token: ${{ github.token }}
+          character-limit: ${{ env.CHARACTER_LIMIT }}
+          max-age: ${{ env.MAX_AGE }}
+          aggregate: ${{matrix.component.aggregate}}
+          #title-pattern: ${{matrix.component.title-pattern}}
