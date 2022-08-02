@@ -17,7 +17,7 @@ svg_dir = Path(__file__).parent / 'font-awesome'/ 'svgs'
 brand_dir = svg_dir / 'brands'
 regular_dir = svg_dir / 'regular'
 solid_dir = svg_dir / 'solid'
-FONT_AWESOME_VERSION = '6.1.1'
+FONT_AWESOME_VERSION = '6.1.2'
 
 
 class _Brand(Enum):
@@ -85,8 +85,6 @@ class _Brand(Enum):
     bandcamp = os.fspath(brand_dir / 'bandcamp.svg')
   
     battle_net = os.fspath(brand_dir / 'battle-net.svg')
-  
-    behance_square = os.fspath(brand_dir / 'behance-square.svg')
   
     behance = os.fspath(brand_dir / 'behance.svg')
   
@@ -254,8 +252,6 @@ class _Brand(Enum):
   
     draft2digital = os.fspath(brand_dir / 'draft2digital.svg')
   
-    dribbble_square = os.fspath(brand_dir / 'dribbble-square.svg')
-  
     dribbble = os.fspath(brand_dir / 'dribbble.svg')
   
     dropbox = os.fspath(brand_dir / 'dropbox.svg')
@@ -295,8 +291,6 @@ class _Brand(Enum):
     facebook_f = os.fspath(brand_dir / 'facebook-f.svg')
   
     facebook_messenger = os.fspath(brand_dir / 'facebook-messenger.svg')
-  
-    facebook_square = os.fspath(brand_dir / 'facebook-square.svg')
   
     facebook = os.fspath(brand_dir / 'facebook.svg')
   
@@ -356,13 +350,9 @@ class _Brand(Enum):
   
     git_alt = os.fspath(brand_dir / 'git-alt.svg')
   
-    git_square = os.fspath(brand_dir / 'git-square.svg')
-  
     git = os.fspath(brand_dir / 'git.svg')
   
     github_alt = os.fspath(brand_dir / 'github-alt.svg')
-  
-    github_square = os.fspath(brand_dir / 'github-square.svg')
   
     github = os.fspath(brand_dir / 'github.svg')
   
@@ -392,8 +382,6 @@ class _Brand(Enum):
   
     google_plus_g = os.fspath(brand_dir / 'google-plus-g.svg')
   
-    google_plus_square = os.fspath(brand_dir / 'google-plus-square.svg')
-  
     google_plus = os.fspath(brand_dir / 'google-plus.svg')
   
     google_wallet = os.fspath(brand_dir / 'google-wallet.svg')
@@ -411,8 +399,6 @@ class _Brand(Enum):
     guilded = os.fspath(brand_dir / 'guilded.svg')
   
     gulp = os.fspath(brand_dir / 'gulp.svg')
-  
-    hacker_news_square = os.fspath(brand_dir / 'hacker-news-square.svg')
   
     hacker_news = os.fspath(brand_dir / 'hacker-news.svg')
   
@@ -441,8 +427,6 @@ class _Brand(Enum):
     ideal = os.fspath(brand_dir / 'ideal.svg')
   
     imdb = os.fspath(brand_dir / 'imdb.svg')
-  
-    instagram_square = os.fspath(brand_dir / 'instagram-square.svg')
   
     instagram = os.fspath(brand_dir / 'instagram.svg')
   
@@ -474,8 +458,6 @@ class _Brand(Enum):
   
     joomla = os.fspath(brand_dir / 'joomla.svg')
   
-    js_square = os.fspath(brand_dir / 'js-square.svg')
-  
     js = os.fspath(brand_dir / 'js.svg')
   
     jsfiddle = os.fspath(brand_dir / 'jsfiddle.svg')
@@ -493,8 +475,6 @@ class _Brand(Enum):
     korvue = os.fspath(brand_dir / 'korvue.svg')
   
     laravel = os.fspath(brand_dir / 'laravel.svg')
-  
-    lastfm_square = os.fspath(brand_dir / 'lastfm-square.svg')
   
     lastfm = os.fspath(brand_dir / 'lastfm.svg')
   
@@ -540,6 +520,8 @@ class _Brand(Enum):
   
     mendeley = os.fspath(brand_dir / 'mendeley.svg')
   
+    meta = os.fspath(brand_dir / 'meta.svg')
+  
     microblog = os.fspath(brand_dir / 'microblog.svg')
   
     microsoft = os.fspath(brand_dir / 'microsoft.svg')
@@ -577,8 +559,6 @@ class _Brand(Enum):
     nutritionix = os.fspath(brand_dir / 'nutritionix.svg')
   
     octopus_deploy = os.fspath(brand_dir / 'octopus-deploy.svg')
-  
-    odnoklassniki_square = os.fspath(brand_dir / 'odnoklassniki-square.svg')
   
     odnoklassniki = os.fspath(brand_dir / 'odnoklassniki.svg')
   
@@ -626,13 +606,9 @@ class _Brand(Enum):
   
     pied_piper_pp = os.fspath(brand_dir / 'pied-piper-pp.svg')
   
-    pied_piper_square = os.fspath(brand_dir / 'pied-piper-square.svg')
-  
     pied_piper = os.fspath(brand_dir / 'pied-piper.svg')
   
     pinterest_p = os.fspath(brand_dir / 'pinterest-p.svg')
-  
-    pinterest_square = os.fspath(brand_dir / 'pinterest-square.svg')
   
     pinterest = os.fspath(brand_dir / 'pinterest.svg')
   
@@ -669,8 +645,6 @@ class _Brand(Enum):
     red_river = os.fspath(brand_dir / 'red-river.svg')
   
     reddit_alien = os.fspath(brand_dir / 'reddit-alien.svg')
-  
-    reddit_square = os.fspath(brand_dir / 'reddit-square.svg')
   
     reddit = os.fspath(brand_dir / 'reddit.svg')
   
@@ -736,13 +710,13 @@ class _Brand(Enum):
   
     slideshare = os.fspath(brand_dir / 'slideshare.svg')
   
-    snapchat_square = os.fspath(brand_dir / 'snapchat-square.svg')
-  
     snapchat = os.fspath(brand_dir / 'snapchat.svg')
   
     soundcloud = os.fspath(brand_dir / 'soundcloud.svg')
   
     sourcetree = os.fspath(brand_dir / 'sourcetree.svg')
+  
+    space_awesome = os.fspath(brand_dir / 'space-awesome.svg')
   
     speakap = os.fspath(brand_dir / 'speakap.svg')
   
@@ -750,9 +724,57 @@ class _Brand(Enum):
   
     spotify = os.fspath(brand_dir / 'spotify.svg')
   
+    square_behance = os.fspath(brand_dir / 'square-behance.svg')
+  
+    square_dribbble = os.fspath(brand_dir / 'square-dribbble.svg')
+  
+    square_facebook = os.fspath(brand_dir / 'square-facebook.svg')
+  
     square_font_awesome_stroke = os.fspath(brand_dir / 'square-font-awesome-stroke.svg')
   
     square_font_awesome = os.fspath(brand_dir / 'square-font-awesome.svg')
+  
+    square_git = os.fspath(brand_dir / 'square-git.svg')
+  
+    square_github = os.fspath(brand_dir / 'square-github.svg')
+  
+    square_gitlab = os.fspath(brand_dir / 'square-gitlab.svg')
+  
+    square_google_plus = os.fspath(brand_dir / 'square-google-plus.svg')
+  
+    square_hacker_news = os.fspath(brand_dir / 'square-hacker-news.svg')
+  
+    square_instagram = os.fspath(brand_dir / 'square-instagram.svg')
+  
+    square_js = os.fspath(brand_dir / 'square-js.svg')
+  
+    square_lastfm = os.fspath(brand_dir / 'square-lastfm.svg')
+  
+    square_odnoklassniki = os.fspath(brand_dir / 'square-odnoklassniki.svg')
+  
+    square_pied_piper = os.fspath(brand_dir / 'square-pied-piper.svg')
+  
+    square_pinterest = os.fspath(brand_dir / 'square-pinterest.svg')
+  
+    square_reddit = os.fspath(brand_dir / 'square-reddit.svg')
+  
+    square_snapchat = os.fspath(brand_dir / 'square-snapchat.svg')
+  
+    square_steam = os.fspath(brand_dir / 'square-steam.svg')
+  
+    square_tumblr = os.fspath(brand_dir / 'square-tumblr.svg')
+  
+    square_twitter = os.fspath(brand_dir / 'square-twitter.svg')
+  
+    square_viadeo = os.fspath(brand_dir / 'square-viadeo.svg')
+  
+    square_vimeo = os.fspath(brand_dir / 'square-vimeo.svg')
+  
+    square_whatsapp = os.fspath(brand_dir / 'square-whatsapp.svg')
+  
+    square_xing = os.fspath(brand_dir / 'square-xing.svg')
+  
+    square_youtube = os.fspath(brand_dir / 'square-youtube.svg')
   
     squarespace = os.fspath(brand_dir / 'squarespace.svg')
   
@@ -763,8 +785,6 @@ class _Brand(Enum):
     stackpath = os.fspath(brand_dir / 'stackpath.svg')
   
     staylinked = os.fspath(brand_dir / 'staylinked.svg')
-  
-    steam_square = os.fspath(brand_dir / 'steam-square.svg')
   
     steam_symbol = os.fspath(brand_dir / 'steam-symbol.svg')
   
@@ -814,13 +834,9 @@ class _Brand(Enum):
   
     trello = os.fspath(brand_dir / 'trello.svg')
   
-    tumblr_square = os.fspath(brand_dir / 'tumblr-square.svg')
-  
     tumblr = os.fspath(brand_dir / 'tumblr.svg')
   
     twitch = os.fspath(brand_dir / 'twitch.svg')
-  
-    twitter_square = os.fspath(brand_dir / 'twitter-square.svg')
   
     twitter = os.fspath(brand_dir / 'twitter.svg')
   
@@ -856,13 +872,9 @@ class _Brand(Enum):
   
     viacoin = os.fspath(brand_dir / 'viacoin.svg')
   
-    viadeo_square = os.fspath(brand_dir / 'viadeo-square.svg')
-  
     viadeo = os.fspath(brand_dir / 'viadeo.svg')
   
     viber = os.fspath(brand_dir / 'viber.svg')
-  
-    vimeo_square = os.fspath(brand_dir / 'vimeo-square.svg')
   
     vimeo_v = os.fspath(brand_dir / 'vimeo-v.svg')
   
@@ -885,8 +897,6 @@ class _Brand(Enum):
     weibo = os.fspath(brand_dir / 'weibo.svg')
   
     weixin = os.fspath(brand_dir / 'weixin.svg')
-  
-    whatsapp_square = os.fspath(brand_dir / 'whatsapp-square.svg')
   
     whatsapp = os.fspath(brand_dir / 'whatsapp.svg')
   
@@ -920,8 +930,6 @@ class _Brand(Enum):
   
     xbox = os.fspath(brand_dir / 'xbox.svg')
   
-    xing_square = os.fspath(brand_dir / 'xing-square.svg')
-  
     xing = os.fspath(brand_dir / 'xing.svg')
   
     y_combinator = os.fspath(brand_dir / 'y-combinator.svg')
@@ -939,8 +947,6 @@ class _Brand(Enum):
     yelp = os.fspath(brand_dir / 'yelp.svg')
   
     yoast = os.fspath(brand_dir / 'yoast.svg')
-  
-    youtube_square = os.fspath(brand_dir / 'youtube-square.svg')
   
     youtube = os.fspath(brand_dir / 'youtube.svg')
   
@@ -1184,6 +1190,8 @@ class _Regular(Enum):
   
     hospital = os.fspath(regular_dir / 'hospital.svg')
   
+    hourglass_half = os.fspath(regular_dir / 'hourglass-half.svg')
+  
     hourglass = os.fspath(regular_dir / 'hourglass.svg')
   
     id_badge = os.fspath(regular_dir / 'id-badge.svg')
@@ -1211,6 +1219,8 @@ class _Regular(Enum):
     moon = os.fspath(regular_dir / 'moon.svg')
   
     newspaper = os.fspath(regular_dir / 'newspaper.svg')
+  
+    notdef = os.fspath(regular_dir / 'notdef.svg')
   
     note_sticky = os.fspath(regular_dir / 'note-sticky.svg')
   
@@ -1578,6 +1588,8 @@ class _Solid(Enum):
   
     book_skull = os.fspath(solid_dir / 'book-skull.svg')
   
+    book_tanakh = os.fspath(solid_dir / 'book-tanakh.svg')
+  
     book = os.fspath(solid_dir / 'book.svg')
   
     bookmark = os.fspath(solid_dir / 'bookmark.svg')
@@ -1691,6 +1703,8 @@ class _Solid(Enum):
     business_time = os.fspath(solid_dir / 'business-time.svg')
   
     c = os.fspath(solid_dir / 'c.svg')
+  
+    cable_car = os.fspath(solid_dir / 'cable-car.svg')
   
     cake_candles = os.fspath(solid_dir / 'cake-candles.svg')
   
@@ -2626,9 +2640,9 @@ class _Solid(Enum):
   
     hotel = os.fspath(solid_dir / 'hotel.svg')
   
-    hourglass_empty = os.fspath(solid_dir / 'hourglass-empty.svg')
-  
     hourglass_end = os.fspath(solid_dir / 'hourglass-end.svg')
+  
+    hourglass_half = os.fspath(solid_dir / 'hourglass-half.svg')
   
     hourglass_start = os.fspath(solid_dir / 'hourglass-start.svg')
   
@@ -3000,6 +3014,8 @@ class _Solid(Enum):
   
     not_equal = os.fspath(solid_dir / 'not-equal.svg')
   
+    notdef = os.fspath(solid_dir / 'notdef.svg')
+  
     note_sticky = os.fspath(solid_dir / 'note-sticky.svg')
   
     notes_medical = os.fspath(solid_dir / 'notes-medical.svg')
@@ -3066,7 +3082,7 @@ class _Solid(Enum):
   
     pencil = os.fspath(solid_dir / 'pencil.svg')
   
-    people_arrows_left_right = os.fspath(solid_dir / 'people-arrows-left-right.svg')
+    people_arrows = os.fspath(solid_dir / 'people-arrows.svg')
   
     people_carry_box = os.fspath(solid_dir / 'people-carry-box.svg')
   
@@ -3576,11 +3592,13 @@ class _Solid(Enum):
   
     square = os.fspath(solid_dir / 'square.svg')
   
-    staff_aesculapius = os.fspath(solid_dir / 'staff-aesculapius.svg')
+    staff_snake = os.fspath(solid_dir / 'staff-snake.svg')
   
     stairs = os.fspath(solid_dir / 'stairs.svg')
   
     stamp = os.fspath(solid_dir / 'stamp.svg')
+  
+    stapler = os.fspath(solid_dir / 'stapler.svg')
   
     star_and_crescent = os.fspath(solid_dir / 'star-and-crescent.svg')
   

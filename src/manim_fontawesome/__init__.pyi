@@ -10,7 +10,7 @@
 
 from manim import SVGMobject
 
-FONT_AWESOME_VERSION: str = '6.1.1'
+FONT_AWESOME_VERSION: str = '6.1.2'
 
 
 class Brand:
@@ -78,8 +78,6 @@ class Brand:
     bandcamp: SVGMobject
   
     battle_net: SVGMobject
-  
-    behance_square: SVGMobject
   
     behance: SVGMobject
   
@@ -247,8 +245,6 @@ class Brand:
   
     draft2digital: SVGMobject
   
-    dribbble_square: SVGMobject
-  
     dribbble: SVGMobject
   
     dropbox: SVGMobject
@@ -288,8 +284,6 @@ class Brand:
     facebook_f: SVGMobject
   
     facebook_messenger: SVGMobject
-  
-    facebook_square: SVGMobject
   
     facebook: SVGMobject
   
@@ -349,13 +343,9 @@ class Brand:
   
     git_alt: SVGMobject
   
-    git_square: SVGMobject
-  
     git: SVGMobject
   
     github_alt: SVGMobject
-  
-    github_square: SVGMobject
   
     github: SVGMobject
   
@@ -385,8 +375,6 @@ class Brand:
   
     google_plus_g: SVGMobject
   
-    google_plus_square: SVGMobject
-  
     google_plus: SVGMobject
   
     google_wallet: SVGMobject
@@ -404,8 +392,6 @@ class Brand:
     guilded: SVGMobject
   
     gulp: SVGMobject
-  
-    hacker_news_square: SVGMobject
   
     hacker_news: SVGMobject
   
@@ -434,8 +420,6 @@ class Brand:
     ideal: SVGMobject
   
     imdb: SVGMobject
-  
-    instagram_square: SVGMobject
   
     instagram: SVGMobject
   
@@ -467,8 +451,6 @@ class Brand:
   
     joomla: SVGMobject
   
-    js_square: SVGMobject
-  
     js: SVGMobject
   
     jsfiddle: SVGMobject
@@ -486,8 +468,6 @@ class Brand:
     korvue: SVGMobject
   
     laravel: SVGMobject
-  
-    lastfm_square: SVGMobject
   
     lastfm: SVGMobject
   
@@ -533,6 +513,8 @@ class Brand:
   
     mendeley: SVGMobject
   
+    meta: SVGMobject
+  
     microblog: SVGMobject
   
     microsoft: SVGMobject
@@ -570,8 +552,6 @@ class Brand:
     nutritionix: SVGMobject
   
     octopus_deploy: SVGMobject
-  
-    odnoklassniki_square: SVGMobject
   
     odnoklassniki: SVGMobject
   
@@ -619,13 +599,9 @@ class Brand:
   
     pied_piper_pp: SVGMobject
   
-    pied_piper_square: SVGMobject
-  
     pied_piper: SVGMobject
   
     pinterest_p: SVGMobject
-  
-    pinterest_square: SVGMobject
   
     pinterest: SVGMobject
   
@@ -662,8 +638,6 @@ class Brand:
     red_river: SVGMobject
   
     reddit_alien: SVGMobject
-  
-    reddit_square: SVGMobject
   
     reddit: SVGMobject
   
@@ -729,13 +703,13 @@ class Brand:
   
     slideshare: SVGMobject
   
-    snapchat_square: SVGMobject
-  
     snapchat: SVGMobject
   
     soundcloud: SVGMobject
   
     sourcetree: SVGMobject
+  
+    space_awesome: SVGMobject
   
     speakap: SVGMobject
   
@@ -743,9 +717,57 @@ class Brand:
   
     spotify: SVGMobject
   
+    square_behance: SVGMobject
+  
+    square_dribbble: SVGMobject
+  
+    square_facebook: SVGMobject
+  
     square_font_awesome_stroke: SVGMobject
   
     square_font_awesome: SVGMobject
+  
+    square_git: SVGMobject
+  
+    square_github: SVGMobject
+  
+    square_gitlab: SVGMobject
+  
+    square_google_plus: SVGMobject
+  
+    square_hacker_news: SVGMobject
+  
+    square_instagram: SVGMobject
+  
+    square_js: SVGMobject
+  
+    square_lastfm: SVGMobject
+  
+    square_odnoklassniki: SVGMobject
+  
+    square_pied_piper: SVGMobject
+  
+    square_pinterest: SVGMobject
+  
+    square_reddit: SVGMobject
+  
+    square_snapchat: SVGMobject
+  
+    square_steam: SVGMobject
+  
+    square_tumblr: SVGMobject
+  
+    square_twitter: SVGMobject
+  
+    square_viadeo: SVGMobject
+  
+    square_vimeo: SVGMobject
+  
+    square_whatsapp: SVGMobject
+  
+    square_xing: SVGMobject
+  
+    square_youtube: SVGMobject
   
     squarespace: SVGMobject
   
@@ -756,8 +778,6 @@ class Brand:
     stackpath: SVGMobject
   
     staylinked: SVGMobject
-  
-    steam_square: SVGMobject
   
     steam_symbol: SVGMobject
   
@@ -807,13 +827,9 @@ class Brand:
   
     trello: SVGMobject
   
-    tumblr_square: SVGMobject
-  
     tumblr: SVGMobject
   
     twitch: SVGMobject
-  
-    twitter_square: SVGMobject
   
     twitter: SVGMobject
   
@@ -849,13 +865,9 @@ class Brand:
   
     viacoin: SVGMobject
   
-    viadeo_square: SVGMobject
-  
     viadeo: SVGMobject
   
     viber: SVGMobject
-  
-    vimeo_square: SVGMobject
   
     vimeo_v: SVGMobject
   
@@ -878,8 +890,6 @@ class Brand:
     weibo: SVGMobject
   
     weixin: SVGMobject
-  
-    whatsapp_square: SVGMobject
   
     whatsapp: SVGMobject
   
@@ -913,8 +923,6 @@ class Brand:
   
     xbox: SVGMobject
   
-    xing_square: SVGMobject
-  
     xing: SVGMobject
   
     y_combinator: SVGMobject
@@ -932,8 +940,6 @@ class Brand:
     yelp: SVGMobject
   
     yoast: SVGMobject
-  
-    youtube_square: SVGMobject
   
     youtube: SVGMobject
   
@@ -1177,6 +1183,8 @@ class Regular:
   
     hospital: SVGMobject
   
+    hourglass_half: SVGMobject
+  
     hourglass: SVGMobject
   
     id_badge: SVGMobject
@@ -1204,6 +1212,8 @@ class Regular:
     moon: SVGMobject
   
     newspaper: SVGMobject
+  
+    notdef: SVGMobject
   
     note_sticky: SVGMobject
   
@@ -1571,6 +1581,8 @@ class Solid:
   
     book_skull: SVGMobject
   
+    book_tanakh: SVGMobject
+  
     book: SVGMobject
   
     bookmark: SVGMobject
@@ -1684,6 +1696,8 @@ class Solid:
     business_time: SVGMobject
   
     c: SVGMobject
+  
+    cable_car: SVGMobject
   
     cake_candles: SVGMobject
   
@@ -2619,9 +2633,9 @@ class Solid:
   
     hotel: SVGMobject
   
-    hourglass_empty: SVGMobject
-  
     hourglass_end: SVGMobject
+  
+    hourglass_half: SVGMobject
   
     hourglass_start: SVGMobject
   
@@ -2993,6 +3007,8 @@ class Solid:
   
     not_equal: SVGMobject
   
+    notdef: SVGMobject
+  
     note_sticky: SVGMobject
   
     notes_medical: SVGMobject
@@ -3059,7 +3075,7 @@ class Solid:
   
     pencil: SVGMobject
   
-    people_arrows_left_right: SVGMobject
+    people_arrows: SVGMobject
   
     people_carry_box: SVGMobject
   
@@ -3569,11 +3585,13 @@ class Solid:
   
     square: SVGMobject
   
-    staff_aesculapius: SVGMobject
+    staff_snake: SVGMobject
   
     stairs: SVGMobject
   
     stamp: SVGMobject
+  
+    stapler: SVGMobject
   
     star_and_crescent: SVGMobject
   
