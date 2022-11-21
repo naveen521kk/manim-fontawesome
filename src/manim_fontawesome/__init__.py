@@ -17,7 +17,7 @@ svg_dir = Path(__file__).parent / 'font-awesome'/ 'svgs'
 brand_dir = svg_dir / 'brands'
 regular_dir = svg_dir / 'regular'
 solid_dir = svg_dir / 'solid'
-FONT_AWESOME_VERSION = '6.1.2'
+FONT_AWESOME_VERSION = '6.2.1'
 
 
 class _Brand(Enum):
@@ -1220,8 +1220,6 @@ class _Regular(Enum):
   
     newspaper = os.fspath(regular_dir / 'newspaper.svg')
   
-    notdef = os.fspath(regular_dir / 'notdef.svg')
-  
     note_sticky = os.fspath(regular_dir / 'note-sticky.svg')
   
     object_group = os.fspath(regular_dir / 'object-group.svg')
@@ -1501,6 +1499,8 @@ class _Solid(Enum):
     ban = os.fspath(solid_dir / 'ban.svg')
   
     bandage = os.fspath(solid_dir / 'bandage.svg')
+  
+    bangladeshi_taka_sign = os.fspath(solid_dir / 'bangladeshi-taka-sign.svg')
   
     barcode = os.fspath(solid_dir / 'barcode.svg')
   
@@ -1842,11 +1842,11 @@ class _Solid(Enum):
   
     chevron_up = os.fspath(solid_dir / 'chevron-up.svg')
   
+    child_combatant = os.fspath(solid_dir / 'child-combatant.svg')
+  
     child_dress = os.fspath(solid_dir / 'child-dress.svg')
   
     child_reaching = os.fspath(solid_dir / 'child-reaching.svg')
-  
-    child_rifle = os.fspath(solid_dir / 'child-rifle.svg')
   
     child = os.fspath(solid_dir / 'child.svg')
   

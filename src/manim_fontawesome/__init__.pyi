@@ -10,7 +10,7 @@
 
 from manim import SVGMobject
 
-FONT_AWESOME_VERSION: str = '6.1.2'
+FONT_AWESOME_VERSION: str = '6.2.1'
 
 
 class Brand:
@@ -1213,8 +1213,6 @@ class Regular:
   
     newspaper: SVGMobject
   
-    notdef: SVGMobject
-  
     note_sticky: SVGMobject
   
     object_group: SVGMobject
@@ -1494,6 +1492,8 @@ class Solid:
     ban: SVGMobject
   
     bandage: SVGMobject
+  
+    bangladeshi_taka_sign: SVGMobject
   
     barcode: SVGMobject
   
@@ -1835,11 +1835,11 @@ class Solid:
   
     chevron_up: SVGMobject
   
+    child_combatant: SVGMobject
+  
     child_dress: SVGMobject
   
     child_reaching: SVGMobject
-  
-    child_rifle: SVGMobject
   
     child: SVGMobject
   
