@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "manim-fontawesome"
-version = "6.2.1"
+version = "6.3.0"
 description = "Font Awesome SVG's for Manim"
 authors = ["Naveen M K <naveen@manim.community>"]
 repository = "https://github.com/naveen521kk/manim-fontawesome"

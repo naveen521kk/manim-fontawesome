@@ -10,7 +10,7 @@
 
 from manim import SVGMobject
 
-FONT_AWESOME_VERSION: str = '6.2.1'
+FONT_AWESOME_VERSION: str = '6.3.0'
 
 
 class Brand:
@@ -555,6 +555,8 @@ class Brand:
   
     odnoklassniki: SVGMobject
   
+    odysee: SVGMobject
+  
     old_republic: SVGMobject
   
     opencart: SVGMobject
@@ -790,6 +792,8 @@ class Brand:
     stripe_s: SVGMobject
   
     stripe: SVGMobject
+  
+    stubber: SVGMobject
   
     studiovinari: SVGMobject
   

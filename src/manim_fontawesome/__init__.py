@@ -9,7 +9,7 @@ import os
 
 from pathlib import Path
 from enum import Enum
-from manim import SVGMobject, config
+from manim import SVGMobject, config, BLACK, WHITE
 
 __all__ = ["brand", "regular", "solid", "FONT_AWESOME_VERSION"]
 
@@ -17,7 +17,7 @@ svg_dir = Path(__file__).parent / 'font-awesome'/ 'svgs'
 brand_dir = svg_dir / 'brands'
 regular_dir = svg_dir / 'regular'
 solid_dir = svg_dir / 'solid'
-FONT_AWESOME_VERSION = '6.2.1'
+FONT_AWESOME_VERSION = '6.3.0'
 
 
 class _Brand(Enum):
@@ -562,6 +562,8 @@ class _Brand(Enum):
   
     odnoklassniki = os.fspath(brand_dir / 'odnoklassniki.svg')
   
+    odysee = os.fspath(brand_dir / 'odysee.svg')
+  
     old_republic = os.fspath(brand_dir / 'old-republic.svg')
   
     opencart = os.fspath(brand_dir / 'opencart.svg')
@@ -797,6 +799,8 @@ class _Brand(Enum):
     stripe_s = os.fspath(brand_dir / 'stripe-s.svg')
   
     stripe = os.fspath(brand_dir / 'stripe.svg')
+  
+    stubber = os.fspath(brand_dir / 'stubber.svg')
   
     studiovinari = os.fspath(brand_dir / 'studiovinari.svg')
   
@@ -4069,9 +4073,9 @@ class _Solid(Enum):
 
 
 def _get_svg_object(fp: str):
-    color = 'BLACK'
-    if config.background_color == 'BLACK':
-        color = 'WHITE'
+    color = BLACK
+    if str(config.background_color) == 'black':
+        color = WHITE
     return SVGMobject(fp, color=color)
 
 
