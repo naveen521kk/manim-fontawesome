@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  release:
+  test:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v3
