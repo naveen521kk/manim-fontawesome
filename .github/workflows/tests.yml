@@ -9,16 +9,15 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Install Poetry
+      run: pipx install poetry
+
     - name: Set up Python 3.11
       uses: actions/setup-python@v4
       id: setup-python
       with:
         python-version: '3.11'
         cache: 'poetry'
-
-    - name: Install Poetry
-      if: ${{ steps.setup-python.outputs.cache-hit }} == false
-      run: pipx install poetry
 
     - name: Install dependencies
       run: poetry install
