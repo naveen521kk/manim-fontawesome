@@ -39,9 +39,9 @@ class _Solid(Enum):
 
 
 def _get_svg_object(fp: str):
-    color = 'BLACK'
-    if config.background_color == 'BLACK':
-        color = 'WHITE'
+    color = BLACK
+    if str(config.background_color) == 'black':
+        color = WHITE
     return SVGMobject(fp, color=color)
 
 
