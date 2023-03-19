@@ -21,7 +21,7 @@ class Test(Scene):
     [
         "brand.amazon",
         "solid.wifi",
-        "regular.angry",
+        "regular.address_book",
     ],
 )
 def test_basic_animation(tmp_path, test_input):
