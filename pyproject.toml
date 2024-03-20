@@ -27,7 +27,7 @@ manim = ">=0.3,<=1.0"
 "manim_fontawesome" = "manim_fontawesome"
 
 [tool.poetry.dev-dependencies]
-black = {version = "^21.9b0", allow-prereleases = true}
+black = {version = "^24.3", allow-prereleases = true}
 jinja2 = "^3.0"
 pytest = "^6.2.5"
 mypy = "^0.910"
